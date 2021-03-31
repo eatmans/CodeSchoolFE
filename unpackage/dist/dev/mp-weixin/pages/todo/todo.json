@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "TODO",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "vue-qr": "/node-modules/vue-qr/dist/vue-qr"
+  }
+}

@@ -1,0 +1,1 @@
+<view>我是注册页<text>{{info}}</text><button type="default" data-event-opts="{{[['tap',[['mounted']]]]}}" bindtap="__e"></button></view>

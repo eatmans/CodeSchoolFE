@@ -1,0 +1,1 @@
+<view class="u-flex u-flex-col "><u-empty vue-id="4c4da12e-1" text="所谓伊人，在水一方" mode="list" bind:__l="__l"></u-empty></view>

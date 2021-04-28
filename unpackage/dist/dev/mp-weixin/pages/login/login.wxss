@@ -14,15 +14,23 @@
 	-webkit-justify-content: center;
 	        justify-content: center;
 }
+.c-container {
+	/* margin-top: 20rpx; */
+	width: 500rpx;
+}
+.c-container-button {
+	margin-top: 20rpx;
+	width: 500rpx;
+}
 .logo {
 	height: 200rpx;
 	width: 200rpx;
-	margin-top: 200rpx;
+	margin-top: 150rpx;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50rpx;
 }
-.hen{
+.c-tool {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
@@ -30,29 +38,18 @@
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: row;
 	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	/* 两端对齐 */
+	margin-top: 20rpx;
 }
-.mini{
-	height: 50rpx;
-	width: 50rpx;
-
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20rpx;
-}
-.input-style{
+.c-a {
+	text-decoration: none;
+	cursor: pointer;
 	color: #007AFF;
-	 border-color: #66afe9;
-	 outline: 0;
-	 -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
-	 box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
 }
-.btn{
-	background-color: #007AFF;
-	color: #FFFFFF;
-	width: 350rpx;
-	height: 80rpx;
-	-webkit-border-radius: 25px;
-	        border-radius: 25px;
-	margin: auto;
+.title {
+	padding: 20rpx 0;
 }
 

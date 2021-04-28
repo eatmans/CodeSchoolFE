@@ -1,0 +1,31 @@
+
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+.c-container {
+	width: 500rpx;
+}
+.c-a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #007AFF;
+	margin-top: 20rpx;
+}
+.c-botton {
+	width: 500rpx;
+	margin-top: 20rpx;
+	border-radius: 45rpx;
+}
+.c-agress {
+	margin-top: 10rpx;
+}
+.c-blue {
+	margin-left: -20rpx;
+	color: #0000FF;
+}
+

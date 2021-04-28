@@ -1,0 +1,238 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 	page{
+	background-color: #f5f0f0 ;
+} */
+.c-container {}
+.c-bg {
+	width: 100%;
+	background-size: 100%;
+	margin-bottom: -400rpx;
+	z-index: -11;
+}
+.c-user {
+	width: 80%;
+	margin-top: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	background-color: #fbefe3;
+	border-radius: 40rpx;
+	color: #333333;
+}
+.c-user-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.c-bar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin: 10rpx;
+}
+.c-bar-item {
+	margin: 5rpx;
+}
+.c-impo {
+	margin-left: 20rpx;
+	color: #000;
+}
+.c-user-av {
+	/* background-color: #18B566; */
+}
+.c-user-av-image {
+	margin-top: -100rpx;
+	width: 200rpx;
+	height: 200rpx;
+	border: 5rpx solid #fff;
+	border-radius: 100rpx;
+}
+.c-user-name {
+	margin: 10rpx;
+}
+.c-tools {
+	/* width: 80%; */
+	margin-top: 20rpx;
+}
+.c-item {
+	background-color: #fbf5f4;
+	height: 80rpx;
+	width: 720rpx;
+	margin-top: 25rpx;
+	margin-bottom: 25rpx;
+	padding: 20rpx;
+	padding-left: 100rpx;
+	border-radius: 25rpx;
+	color: #000;
+	border: 2rpx solid #F1F1F1;
+	font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.c-item-text {
+	margin-left: 25rpx;
+}
+.c-button-box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/* background-color: #18B566; */
+	/* margin-left: -70rpx; */
+	margin-left: 150rpx;
+}
+

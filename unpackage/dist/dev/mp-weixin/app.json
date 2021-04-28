@@ -7,21 +7,29 @@
     "pages/about/about",
     "pages/activity/activity",
     "pages/agreement/agreement",
-    "pages/registered/registered",
-    "pages/schedule/schedule"
+    "pages/register/register",
+    "pages/schedule/schedule",
+    "pages/error/error",
+    "pages/test/test",
+    "pages/attendance/attendance",
+    "pages/course/course",
+    "pages/todo/addTodo/addTodo",
+    "pages/makeFriend/makeFriend",
+    "pages/myFile/myFile",
+    "pages/findPassword/findPassword"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "可得校园",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarBackgroundColor": "#f5f0f0",
+    "backgroundColor": "#f5f0f0"
   },
   "tabBar": {
     "color": "#cdcdcd",
     "selectedColor": "#39cffc",
     "borderStyle": "black",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#f5f0f0",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -36,16 +44,16 @@
         "text": "TODO"
       },
       {
-        "pagePath": "pages/schedule/schedule",
+        "pagePath": "pages/course/course",
         "iconPath": "static/calendar.png",
         "selectedIconPath": "static/calendar-selected.png",
         "text": "课程表"
       },
       {
-        "pagePath": "pages/activity/activity",
+        "pagePath": "pages/makeFriend/makeFriend",
         "iconPath": "static/emoji-fill.png",
         "selectedIconPath": "static/emoji-fill-selected.png",
-        "text": "活动"
+        "text": "交友"
       },
       {
         "pagePath": "pages/my/my",
@@ -55,5 +63,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }

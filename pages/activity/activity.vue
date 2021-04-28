@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="u-flex u-flex-col">
 		我是活动
 	</view>
 </template>

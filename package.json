@@ -1,0 +1,13 @@
+{
+    "id": "codeschool",
+    "name": "可得校园",
+    "version": "0.0.1",
+    "description": "本项目的目的是为同学们提供一个优美的校园服务APP",
+    "keywords": [
+        "校园"
+    ],
+    "dependencies": {
+        "moment": "^2.29.1",
+        "vue-silder-like": "^1.0.2"
+    }
+}

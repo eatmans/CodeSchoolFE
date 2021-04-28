@@ -1,1 +1,1 @@
-<view>我是协议</view>
+<view class="u-flex u-flex-col"><rich-text nodes="{{agreement}}"></rich-text></view>

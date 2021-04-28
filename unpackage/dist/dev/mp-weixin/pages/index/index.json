@@ -1,4 +1,8 @@
 {
   "navigationBarTitleText": "可得校园",
-  "usingComponents": {}
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "niu-calendar": "/components/niu-calendar/niu-calendar"
+  }
 }

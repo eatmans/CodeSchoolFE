@@ -1,0 +1,132 @@
+
+page {
+	background-color: #F8F8F8;
+}
+.c-top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	/* margin-left: 35rpx; */
+}
+.c-top-text {
+	width: 90rpx;
+	height: 100rpx;
+	font-size: 9pt;
+	margin: 3rpx;
+	background-color: #FFFFFF;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-radius: 5rpx;
+}
+.c-top-box {
+	width: 90rpx;
+	height: 100rpx;
+	font-size: 9pt;
+	margin: 3rpx;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-radius: 5rpx;
+}
+.c-curret-day {
+	padding: 20rpx;
+	border-radius: 5rpx;
+	background-color: #61f5ff;
+}
+.c-center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	width: 100%;
+}
+.c-center-left {
+	width: 12%;
+}
+.c-center-center {
+	height: 1220rpx;
+	width: 86%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: left;
+	-webkit-justify-content: left;
+	        justify-content: left;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.c-time-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #FFF;
+	font-size: 9pt;
+	height: 120rpx;
+	margin: 3rpx;
+	border-radius: 10rpx;
+}
+.c-course {
+	width: 90rpx;
+	height: 240rpx;
+	font-size: 20rpx;
+	background-color: #1cc5dc;
+	margin: 3rpx;
+	padding: 6rpx;
+	color: #FFFFFF;
+	border-radius: 5rpx;
+}
+.c-course-name {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+.c-course-koxian {
+	width: 90rpx;
+	height: 235rpx;
+	padding-top: 120rpx;
+	padding-bottom: 120rpx;
+	margin: 3rpx;
+	color: #FFFFFF;
+	border-radius: 5rpx;
+}
+

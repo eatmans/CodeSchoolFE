@@ -2,6 +2,6 @@
   "navigationBarTitleText": "TODO",
   "enablePullDownRefresh": false,
   "usingComponents": {
-    "vue-qr": "/node-modules/vue-qr/dist/vue-qr"
+    "xj-calendar": "/components/xj-calendar/xj-calendar"
   }
 }

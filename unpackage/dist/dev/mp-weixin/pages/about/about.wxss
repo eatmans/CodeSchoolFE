@@ -1,0 +1,35 @@
+
+.c-container{
+	/* margin: 20rpx; */
+	padding: 20rpx;
+}
+.logo {
+	height: 200px;
+	width: 500px;
+	text-align: center;
+}
+.box_title {
+	/* 	width: 180px;
+	height: 100px; */
+	margin: 0px auto;
+	text-align: center;
+	line-height: 40px;
+}
+.about_code {
+	font-size: 20px;
+	font-weight: bold;
+}
+.about_team {
+	margin: 0px auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.about_name {
+	font-size: 16px;
+	font-weight: bold;
+}
+.about_myself {}
+/* .about_text {margin: 20rpx;} */
+

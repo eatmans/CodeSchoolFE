@@ -1,26 +1,354 @@
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/agreement/agreement"],{119:
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/agreement/agreement"],{
+
+/***/ 257:
 /*!************************************************************************************!*\
-  !*** D:/0code/Pmini/CodeSchoolFE/main.js?{"page":"pages%2Fagreement%2Fagreement"} ***!
+  !*** G:/0code/Pmini/CodeSchoolFE/main.js?{"page":"pages%2Fagreement%2Fagreement"} ***!
   \************************************************************************************/
-/*! no static exports found */function(t,n,e){"use strict";(function(t){e(/*! uni-pages */4);r(e(/*! vue */2));var n=r(e(/*! ./pages/agreement/agreement.vue */120));function r(t){return t&&t.__esModule?t:{default:t}}t(n.default)}).call(this,e(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */1)["createPage"])},120:
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _agreement = _interopRequireDefault(__webpack_require__(/*! ./pages/agreement/agreement.vue */ 258));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_agreement.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 258:
 /*!*****************************************************************!*\
-  !*** D:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue ***!
+  !*** G:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue ***!
   \*****************************************************************/
-/*! no static exports found */function(t,n,e){"use strict";e.r(n);var r=e(/*! ./agreement.vue?vue&type=template&id=1a454adc& */121),u=e(/*! ./agreement.vue?vue&type=script&lang=js& */123);for(var c in u)"default"!==c&&function(t){e.d(n,t,(function(){return u[t]}))}(c);var o,a=e(/*! ../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */10),i=Object(a["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],o);i.options.__file="pages/agreement/agreement.vue",n["default"]=i.exports},121:
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./agreement.vue?vue&type=template&id=1a454adc& */ 259);
+/* harmony import */ var _agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./agreement.vue?vue&type=script&lang=js& */ 261);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 10);
+
+var renderjs
+
+
+
+
+/* normalize component */
+
+var component = Object(_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null,
+  false,
+  _agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__["components"],
+  renderjs
+)
+
+component.options.__file = "pages/agreement/agreement.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ 259:
 /*!************************************************************************************************!*\
-  !*** D:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue?vue&type=template&id=1a454adc& ***!
+  !*** G:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue?vue&type=template&id=1a454adc& ***!
   \************************************************************************************************/
-/*! exports provided: render, staticRenderFns, recyclableRender, components */function(t,n,e){"use strict";e.r(n);var r=e(/*! -!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./agreement.vue?vue&type=template&id=1a454adc& */122);e.d(n,"render",(function(){return r["render"]})),e.d(n,"staticRenderFns",(function(){return r["staticRenderFns"]})),e.d(n,"recyclableRender",(function(){return r["recyclableRender"]})),e.d(n,"components",(function(){return r["components"]}))},122:
+/*! exports provided: render, staticRenderFns, recyclableRender, components */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./agreement.vue?vue&type=template&id=1a454adc& */ 260);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_template_id_1a454adc___WEBPACK_IMPORTED_MODULE_0__["components"]; });
+
+
+
+/***/ }),
+
+/***/ 260:
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue?vue&type=template&id=1a454adc& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!G:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue?vue&type=template&id=1a454adc& ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns, recyclableRender, components */function(t,n,e){"use strict";var r;e.r(n),e.d(n,"render",(function(){return u})),e.d(n,"staticRenderFns",(function(){return o})),e.d(n,"recyclableRender",(function(){return c})),e.d(n,"components",(function(){return r}));var u=function(){var t=this,n=t.$createElement;t._self._c},c=!1,o=[];u._withStripped=!0},123:
+/*! exports provided: render, staticRenderFns, recyclableRender, components */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
+var components
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+}
+var recyclableRender = false
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ 261:
 /*!******************************************************************************************!*\
-  !*** D:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue?vue&type=script&lang=js& ***!
+  !*** G:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************/
-/*! no static exports found */function(t,n,e){"use strict";e.r(n);var r=e(/*! -!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../app/HBuilderX.1.7.0.20190314/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./agreement.vue?vue&type=script&lang=js& */124),u=e.n(r);for(var c in r)"default"!==c&&function(t){e.d(n,t,(function(){return r[t]}))}(c);n["default"]=u.a},124:
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./agreement.vue?vue&type=script&lang=js& */ 262);
+/* harmony import */ var _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_D_app_HBuilderX_1_7_0_20190314_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_agreement_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ 262:
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!G:/0code/Pmini/CodeSchoolFE/pages/agreement/agreement.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var r={data:function(){return{agreement:'\n\t\t\t可得校园用户协议\n\t\t\t\t\t1. 特别提示\n\t\t\t\t\t1.1为使用本手机应用软件及服务，您应当阅读并遵守《可得校园用户协议》（以下简称“本协议”）。请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制责任的条款，以及同意或使用某项服务的单独协议，并选择接受或不接受。\n\t\t\t\t\t\n\t\t\t\t\t1.2 除非您已阅读并接受本协议所有条款，否则您无权下载、安装或使用本软件及相关服务。您的下载、安装、使用、获取账号、登录等行为即视为您已阅读并同意上述协议的约束。\n\t\t\t\t\t\n\t\t\t\t\t1.3 科德工作室（以下称“本工作室”）同意按照本协议的规定及其不时发布的操作规则提供基于互联网的相关服务（以下称"本服务"）。若您需要获得本服务，您（以下称"用户"）应当同意本协议的全部条款并按照页面上的提示完成全部的申请程序。\n\t\t\t\t\t\n\t\t\t\t\t2. 协议的范围\n\t\t\t\t\t2.1 协议适用主体范围\n\t\t\t\t\t\n\t\t\t\t\t本协议是用户与本工作室之间关于用户下载、安装、使用、复制本软件，以及使用本工作室相关服务所订立的协议。\n\t\t\t\t\t\n\t\t\t\t\t2.2 协议关系和冲突条款\n\t\t\t\t\t\n\t\t\t\t\t本工作室在网站上公布的服务条款及用户所参加课程的招生方案和班次协议等是本协议的补充。本协议与上述内容存在冲突的，以本协议为准。 本协议内容同时包括东大正保公司可能不断发布的关于本服务的相关协议、业务规则等内容。上述内容一经正式发布，即为本协议不可分割的组成部分，用户若继续使用本工作室软件及服务同样应当遵守。\n\t\t\t\t\t\n\t\t\t\t\t3.服务内容与授权使用范围\n\t\t\t\t\t3.1本软件根据用户实际需求提供服务，例如听课、做题等。本工作室保留随时变更、中断或终止部分或全部本服务的权利。\n\t\t\t\t\t\n\t\t\t\t\t3.2本软件手机应用的授权使用范围：\n\t\t\t\t\t\n\t\t\t\t\t1) 用户可以在手机上安装、使用、显示、运行本软件。\n\t\t\t\t\t\n\t\t\t\t\t2) 保留权利：未明示授权的其他一切权利均由本工作室所有。\n\t\t\t\t\t\n\t\t\t\t\t4. 使用规则\n\t\t\t\t\t4.1账号使用规则\n\t\t\t\t\t\n\t\t\t\t\t4.1.1用户在使用本软件前需要注册一个账号。用户注册时需要提供准确的个人资料，如个人资料有任何变动，需要及时更新。如因注册信息不准确而引起的问题由用户本人承担，本工作室不负任何责任并有权暂停或终止用户的账号。\n\t\t\t\t\t\n\t\t\t\t\t4.1.2本软件账号的所有权归本工作室所有，用户完成申请注册手续后，仅获得账号的使用权，且该使用权仅属于初始申请注册人。同时，初始申请注册人不得赠与、借用、租用、转让或售卖账号或者以其他方式许可非初始申请注册人使用账号。\n\t\t\t\t\t\n\t\t\t\t\t4.1.3如若有任何第三方向本工作室发出指示，在确认其提供账户、密码信息准确无误的情况下，用户同意且本工作室有权视该行为获得了用户的充分授权，该行为所产生结果直接归属于用户本身。\n\t\t\t\t\t\n\t\t\t\t\t4.1.4用户承担账号与密码的保管责任，用户对以其账号发生的或通过其账号发生的一切活动和事件（包括但不限于用户发表的任何内容以及由此产生的任何结果）负全部法律责任。用户须重视账号与密码的保护，若因为用户自身原因，而导致账号与密码遭他人非法使用时，本工作室将不承担任何责任。用户自身原因包括但不限于：任意向第三者透露账号和密码及所有注册资料；多人共享同一个账号；安装非法或来路不明的程序等。\n\t\t\t\t\t\n\t\t\t\t\t4.2用户使用规则\n\t\t\t\t\t\n\t\t\t\t\t4.2.1用户在使用本软件时，必须遵循以下原则：\n\t\t\t\t\t\n\t\t\t\t\t1) 遵守中国有关的法律和法规；\n\t\t\t\t\t\n\t\t\t\t\t2) 不得为任何非法目的而使用本服务系统；\n\t\t\t\t\t\n\t\t\t\t\t3) 遵守所有与本服务有关的网络协议、规定和程序；\n\t\t\t\t\t\n\t\t\t\t\t4) 不得利用本软件系统进行任何可能对互联网的正常运转造成不利影响的行为；\n\t\t\t\t\t\n\t\t\t\t\t5) 不得利用本软件服务系统进行任何不利于其他用户的行为；\n\t\t\t\t\t\n\t\t\t\t\t6) 如发现任何非法使用用户账号或账号出现安全漏洞的情况，应立即通告东大正保官方；\n\t\t\t\t\t\n\t\t\t\t\t7) 不使用外挂或者其他作弊手段、不正当或不公平手段参加本软件提供的本服务。\n\t\t\t\t\t\n\t\t\t\t\t4.2.2本工作室致力于为用户提供文明健康、规范有序的服务，用户应遵守中华人民共和国相关法律法规(如果用户是中华人民共和国境外的使用者，还应遵守所属国家或地区的法律法规)，用户将自行承担用户所发布的信息内容的责任。特别地，用户不得发布下列内容：\n\t\t\t\t\t\n\t\t\t\t\t1) 反对中华人民共和国宪法所确定的基本原则的；\n\t\t\t\t\t\n\t\t\t\t\t2) 危害国家统一、主权和领土完整的；\n\t\t\t\t\t\n\t\t\t\t\t3) 泄露国家秘密，危害国家安全或者损害国家荣誉和利益的；\n\t\t\t\t\t\n\t\t\t\t\t4) 煽动民族仇恨、民族歧视，破坏民族团结或者侵害民族风俗、习惯的；\n\t\t\t\t\t\n\t\t\t\t\t5) 破坏国家宗教政策，宣扬邪教、迷信的；\n\t\t\t\t\t\n\t\t\t\t\t6) 散布谣言，扰乱社会秩序，破坏社会稳定的；\n\t\t\t\t\t\n\t\t\t\t\t7) 散布淫秽、赌博、暴力或者教唆犯罪的；\n\t\t\t\t\t\n\t\t\t\t\t8) 侮辱或者诽谤他人，侵害他人合法权益的；\n\t\t\t\t\t\n\t\t\t\t\t9) 危害社会公德或者民族优秀文化传统的；\n\t\t\t\t\t\n\t\t\t\t\t10) 宣扬外挂,私服以及木马的相关内容；\n\t\t\t\t\t\n\t\t\t\t\t11) 刊登任何经本工作室合理判断为不妥当或者本工作室未认可的软件、文件等在内的主页地址或者链接的行为；\n\t\t\t\t\t\n\t\t\t\t\t12) 含有中华人民共和国法律、行政法规禁止的其他内容的。\n\t\t\t\t\t\n\t\t\t\t\t5. 知识产权\n\t\t\t\t\t5.1本工作室是本软件的知识产权权利人。本软件的一切著作权、商标权、专利权、商业秘密等知识产权，以及与本软件相关的所有信息内容（包括但不限于视频课件、文字、图片、音频、图表、界面设计、版面框架、有关数据或电子文档等）均受中华人民共和国法律法规和相应的国际条约保护，本工作室享有上述知识产权，除非事先经本工作室的合法授权，任何人皆不得擅自以任何形式使用，否则本工作室可立即终止向该用户提供产品和服务，并依法追究其法律责任，赔偿本工作室的一切损失。\n\t\t\t\t\t\n\t\t\t\t\t5.2 用户只有在获得本工作室或其他相关权利人的授权之后才能使用这些内容，而不能擅自复制、再造这些内容、或创造与内容有关的派生产品。\n\t\t\t\t\t\n\t\t\t\t\t5.3 用户原创作品上载、传送、输入或以其他方式提供至本软件手机应用时，视为用户授予本软件手机应用对其作品的使用权，该授权无地域、期限、方式限制，该授权为免费授权，本软件手机应用可在现行法律范围内就该作品进行使用，包括但不限于复制、发行、出租、展览、表演、放映、广播、信息网络传播、摄制、改编、翻译、汇编等，并可将前述权利转、分授权给其他第三方。\n\t\t\t\t\t\n\t\t\t\t\t5.4用户在本软件上发布的信息不得侵犯任何第三人的知识产权，未经相关权利人之事先书面同意，用户不得以任何方式上传、发布、修改、传播或复制任何受著作权保护的材料、商标或属于其他人的专有信息。\n\t\t\t\t\t\n\t\t\t\t\t6. 隐私保护\n\t\t\t\t\t6.1 保护用户隐私是本软件的一项基本政策，本工作室保证未经用户同意不对外公开或向第三方提供用户申请资料及用户在使用本服务时存储在本软件的个人信息，但下列情况除外：\n\t\t\t\t\t\n\t\t\t\t\t1) 事先获得用户的明确授权；\n\t\t\t\t\t\n\t\t\t\t\t2) 根据有关的法律法规要求；\n\t\t\t\t\t\n\t\t\t\t\t3) 按照相关政府主管部门的要求；\n\t\t\t\t\t\n\t\t\t\t\t4) 为维护社会公众的利益；\n\t\t\t\t\t\n\t\t\t\t\t5) 为维护本软件手机应用的合法权益。\n\t\t\t\t\t\n\t\t\t\t\t6.2本软件可能会与第三方合作向用户提供相关的本服务，在此情况下，如该第三方同意承担与本工作室同等的保护用户隐私的责任，则本工作室可将用户的个人信息等提供给该第三方。\n\t\t\t\t\t\n\t\t\t\t\t6.3 在不透露单个用户隐私资料的前提下，本工作室有权对整个用户数据库进行分析并对用户数据库进行商业上的利用（包括但不限于公布、分析或以其它方式使用用户访问量、访问时段、用户偏好等用户数据信息）。\n\t\t\t\t\t\n\t\t\t\t\t7. 免责声明\n\t\t\t\t\t7.1 对于本软件手机应用的产品和服务，本工作室仅作下述有限保证，该有限保证取代任何文档、包装、或其他资料中的任何其他明示或默示的保证(如果有)。本工作室仅以"现有状况且包含所有错误"的形式提供相关的产品、软件或程序及任何支持服务，并仅保证：\n\t\t\t\t\t\n\t\t\t\t\t1) 本软件手机应用所提供的产品和服务能基本符合本软件手机应用正式公布的要求；\n\t\t\t\t\t\n\t\t\t\t\t2) 本软件手机应用所提供的相关产品和服务基本与本软件手机应用正式公布的服务承诺相符；\n\t\t\t\t\t\n\t\t\t\t\t3) 本软件手机应用仅在商业上允许的合理范围内尽力解决本软件手机应用在提供产品和服务过程中所遇到的任何问题。\n\t\t\t\t\t\n\t\t\t\t\t7.2 在适用法律允许的最大范围内，本工作室明确表示不提供任何其他类型的保证，不论是明示的或默示的，包括但不限于本软件的适销性、适用性、可靠性、准确性、完整性、无病毒以及无错误的任何明示或默示保证和责任。\n\t\t\t\t\t\n\t\t\t\t\t7.3 在适用法律允许的最大范围内，本工作室并不担保本软件所提供的产品和服务一定能满足用户的要求，也不担保提供的产品和服务不会被中断，并且对产品和服务的及时性，安全性，出错发生，以及信息是否能准确，及时，顺利的传送均不作任何担保。\n\t\t\t\t\t\n\t\t\t\t\t7.4 在适用法律允许的最大范围内，本工作室不就因用户使用本软件的产品和服务引起的，或在任何方面与本软件的产品和服务有关的任何意外的、非直接的、特殊的、或间接的损害或请求(包括但不限于因人身伤害、因隐私泄漏、因未能履行包括诚信或合理谨慎在内的任何责任、因过失和因任何其他金钱上的损失或其他损失而造成的损害赔偿)承担任何责任。\n\t\t\t\t\t\n\t\t\t\t\t7.5本工作室保留采取包括但不限于合并服务器等形式以达到服务器资源优化利用的权利，并对由此而可能导致的用户利益损失不承担责任。\n\t\t\t\t\t\n\t\t\t\t\t7.6 用户在本软件手机应用上所表达的观点、建议等内容均为用户本人看法，不代表本工作室及本软件官方的观点。对于用户违法或者违反本协议的使用而引起的一切责任，由用户负全部责任，一概与本工作室无关，导致本工作室损失的，本工作室有权要求用户赔偿，并有权立即停止向其提供服务。\n\t\t\t\t\t\n\t\t\t\t\t7.7 用户经由本软件本服务与广告商进行通讯联系或商业往来或参与促销活动，完全属于用户与广告商之间的行为，与本工作室没有任何关系，若因商业行为所产生之任何损害或损失，本工作室不承担任何责任。\n\t\t\t\t\t\n\t\t\t\t\t8. 服务变更、中断或终止\n\t\t\t\t\t8.1软件更新\n\t\t\t\t\t\n\t\t\t\t\t8.1.1为了改善用户体验、完善服务内容，本工作室将不断努力开发新的服务，并为用户不时提供软件更新（这些更新可能会采取软件替换、修改、功能强化、版本升级等形式）。\n\t\t\t\t\t\n\t\t\t\t\t8.1.2为了保证本软件及服务的安全性和功能的一致性，本工作室有权不经向用户特别通知而对软件进行更新，或者对软件的部分功能效果进行改变或限制。本软件新版本发布后，旧版本的软件可能无法使用。本工作室不保证旧版本软件继续可用及相应的客户服务，请用户随时核对并下载最新版本。\n\t\t\t\t\t\n\t\t\t\t\t8.2 为了软件的正常运行，本软件手机应用需要定期或不定期地对软件进行停机维护，因此类情况而造成的正常服务中断、停止，用户应该予以理解，本工作室应尽力避免服务中断、停止或将中断、停止时间限制在最短时间内。\n\t\t\t\t\t\n\t\t\t\t\t8.3 服务中断或终止\n\t\t\t\t\t\n\t\t\t\t\t8.3.1如发生下列任何一种情形，本工作室有权随时中断或终止向用户提供本协议项下的本服务而无需通知用户，对因此而产生的不便或损害，本工作室对用户或第三人均不承担任何责任：\n\t\t\t\t\t\n\t\t\t\t\t1) 定期检查或施工，更新软硬件等，本工作室有权暂停服务，但我们会尽快完成维护、更新工作；\n\t\t\t\t\t\n\t\t\t\t\t2) 服务器遭受损坏，无法正常运作；\n\t\t\t\t\t\n\t\t\t\t\t3) 突发性的软硬件设备与电子通信设备故障；\n\t\t\t\t\t\n\t\t\t\t\t4) 网络提供商线路或其它故障；\n\t\t\t\t\t\n\t\t\t\t\t5) 在紧急情况之下为维护国家安全或其它用户及第三者之人身安全；\n\t\t\t\t\t\n\t\t\t\t\t6) 地震等不可抗力及其他第三方原因造成服务瘫痪、中断或丢失。\n\t\t\t\t\t\n\t\t\t\t\t8.3.2 除前款所述情形外，用户同意本工作室享有通过在提前1个月（如相关法律有特别规定的且法律规定的提前通知时间超过上述期限的，以法律规定为准）网站公告通知的方式中断或终止部分或全部本服务的权利，用户已明确知晓上述权利的授予且知晓因上述权利的行使可能给自身及其他第三方造成的直接或间接利益减损，用户在此明确表示不追究本工作室因行使上述单方中断或终止服务权利而可能导致的一切责任。\n\t\t\t\t\t\n\t\t\t\t\t9. 违约责任\n\t\t\t\t\t9.1 如果本工作室发现用户有下列任一行为的，有权根据相应本服务的公约或守则的规定，采取相应措施：包括但不限于对该用户账号的冻结、终止、删除；用户在此承诺本工作室有权作出上述行为，并承诺不就上述行为要求本工作室做任何补偿或退费：\n\t\t\t\t\t\n\t\t\t\t\t1) 用户提供虚假注册信息；\n\t\t\t\t\t\n\t\t\t\t\t2) 用户违反本协议中规定的使用规则；\n\t\t\t\t\t\n\t\t\t\t\t3) 通过非法手段、不正当手段或其他不公平的手段使用本软件的产品和服务或参与本软件活动；\n\t\t\t\t\t\n\t\t\t\t\t4) 有损害本软件正当利益的行为；\n\t\t\t\t\t\n\t\t\t\t\t5) 有严重损害其他用户的行为；\n\t\t\t\t\t\n\t\t\t\t\t6) 有违反中华人民共和国的法律、法规的行为或言论；\n\t\t\t\t\t\n\t\t\t\t\t7) 有违背社会风俗、社会道德和互联网一般道德和礼仪的行为；\n\t\t\t\t\t\n\t\t\t\t\t8) 其他妨碍本软件提供产品和服务或本工作室认为的严重不当行为； 同一用户若有任一账号存在上述任一行为的，本工作室有权对该用户下的所有账号予以制裁，包括但不限于冻结账号、删除账号、终止服务等。本工作室因上述原因删除用户注册的账号后即不再对用户承担任何义务和责任。\n\t\t\t\t\t\n\t\t\t\t\t9.2 用户同意保障和维护本软件及其他用户的利益，如因用户违反有关法律、法规或本协议项下的任何条款而给本软件或任何其他第三人造成损失，用户同意承担由此造成的损害赔偿责任。\n\t\t\t\t\t\n\t\t\t\t\t10. 修改协议\n\t\t\t\t\t10.1本工作室将可能不时的修改本协议的有关条款，一旦条款内容发生变动，本工作室将会在相关的页面提示修改内容。\n\t\t\t\t\t\n\t\t\t\t\t110.2 如果用户不同意本工作室修改的内容，用户可以主动取消获得的本服务。如果用户在修改内容公告后15天内未主动取消服务，则视为接受条款的变更；修改内容公告后用户如果仍继续使用本软件提供的产品和服务亦构成对条款变更的接受。\n\t\t\t\t\t\n\t\t\t\t\t11. 法律管辖\n\t\t\t\t\t11.1 本协议的订立、执行和解释及争议的解决均应适用中国法律。\n\t\t\t\t\t\n\t\t\t\t\t11.2 如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，用户和本工作室一致同意交由软件运营商所在地有管辖权的法院管辖。\n\t\t\t\t\t\n\t\t\t\t\t12. 通知和送达\n\t\t\t\t\t12.1 本协议项下所有的通知均可通过重要页面公告、电子邮件或常规的信件传送等方式进行；该通知于发送之日视为已送达收件人。\n\t\t\t\t\t\n\t\t\t\t\t13. 其他规定\n\t\t\t\t\t13.1用户接受本服务条款视为用户已充分理解并同意：\n\t\t\t\t\t\n\t\t\t\t\t1）接收本工作室通过邮件、电话、短信、移动端、网页或其他合法方式，不定期发送与学习、考试资讯的相关信息；\n\t\t\t\t\t\n\t\t\t\t\t2）接收本工作室通过邮件、电话、短信、移动端、网页或其他合法方式，向用户发送的订单信息、产品或服务信息、促销活动等内容；\n\t\t\t\t\t\n\t\t\t\t\t3）本工作室依法保障用户在安装或使用过程中的知情权和选择权，在用户使用本工作室服务过程中，涉及用户设备自带功能的服务会提前征得用户同意。用户一经确认，本工作室有权开启包括但不限于收集地理位置、读取通讯录、使用摄像头、启用录音等提供服务必要的辅助功能。\n\t\t\t\t\t\n\t\t\t\t\t13.2 本协议构成双方对本协议之约定事项及其他有关事宜的完整协议，除本协议规定的之外，未赋予本协议各方其他权利。\n\t\t\t\t\t\n\t\t\t\t\t13.3 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。\n\t\t\t\t\t\n\t\t\t\t\t13.4 本协议中的标题仅为方便而设，在解释本协议时应被忽略。\n\t\t\t'}},methods:{}};n.default=r}},[[119,"common/runtime","common/vendor"]]]);
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
+//
+//
+var _default =
+{
+  data: function data() {
+    return {
+      agreement: "\n\t\t\t\u53EF\u5F97\u6821\u56ED\u7528\u6237\u534F\u8BAE\n\t\t\t\t\t1. \u7279\u522B\u63D0\u793A\n\t\t\t\t\t1.1\u4E3A\u4F7F\u7528\u672C\u624B\u673A\u5E94\u7528\u8F6F\u4EF6\u53CA\u670D\u52A1\uFF0C\u60A8\u5E94\u5F53\u9605\u8BFB\u5E76\u9075\u5B88\u300A\u53EF\u5F97\u6821\u56ED\u7528\u6237\u534F\u8BAE\u300B\uFF08\u4EE5\u4E0B\u7B80\u79F0\u201C\u672C\u534F\u8BAE\u201D\uFF09\u3002\u8BF7\u60A8\u52A1\u5FC5\u5BA1\u614E\u9605\u8BFB\u3001\u5145\u5206\u7406\u89E3\u5404\u6761\u6B3E\u5185\u5BB9\uFF0C\u7279\u522B\u662F\u514D\u9664\u6216\u8005\u9650\u5236\u8D23\u4EFB\u7684\u6761\u6B3E\uFF0C\u4EE5\u53CA\u540C\u610F\u6216\u4F7F\u7528\u67D0\u9879\u670D\u52A1\u7684\u5355\u72EC\u534F\u8BAE\uFF0C\u5E76\u9009\u62E9\u63A5\u53D7\u6216\u4E0D\u63A5\u53D7\u3002\n\t\t\t\t\t\n\t\t\t\t\t1.2 \u9664\u975E\u60A8\u5DF2\u9605\u8BFB\u5E76\u63A5\u53D7\u672C\u534F\u8BAE\u6240\u6709\u6761\u6B3E\uFF0C\u5426\u5219\u60A8\u65E0\u6743\u4E0B\u8F7D\u3001\u5B89\u88C5\u6216\u4F7F\u7528\u672C\u8F6F\u4EF6\u53CA\u76F8\u5173\u670D\u52A1\u3002\u60A8\u7684\u4E0B\u8F7D\u3001\u5B89\u88C5\u3001\u4F7F\u7528\u3001\u83B7\u53D6\u8D26\u53F7\u3001\u767B\u5F55\u7B49\u884C\u4E3A\u5373\u89C6\u4E3A\u60A8\u5DF2\u9605\u8BFB\u5E76\u540C\u610F\u4E0A\u8FF0\u534F\u8BAE\u7684\u7EA6\u675F\u3002\n\t\t\t\t\t\n\t\t\t\t\t1.3 \u79D1\u5FB7\u5DE5\u4F5C\u5BA4\uFF08\u4EE5\u4E0B\u79F0\u201C\u672C\u5DE5\u4F5C\u5BA4\u201D\uFF09\u540C\u610F\u6309\u7167\u672C\u534F\u8BAE\u7684\u89C4\u5B9A\u53CA\u5176\u4E0D\u65F6\u53D1\u5E03\u7684\u64CD\u4F5C\u89C4\u5219\u63D0\u4F9B\u57FA\u4E8E\u4E92\u8054\u7F51\u7684\u76F8\u5173\u670D\u52A1\uFF08\u4EE5\u4E0B\u79F0\"\u672C\u670D\u52A1\"\uFF09\u3002\u82E5\u60A8\u9700\u8981\u83B7\u5F97\u672C\u670D\u52A1\uFF0C\u60A8\uFF08\u4EE5\u4E0B\u79F0\"\u7528\u6237\"\uFF09\u5E94\u5F53\u540C\u610F\u672C\u534F\u8BAE\u7684\u5168\u90E8\u6761\u6B3E\u5E76\u6309\u7167\u9875\u9762\u4E0A\u7684\u63D0\u793A\u5B8C\u6210\u5168\u90E8\u7684\u7533\u8BF7\u7A0B\u5E8F\u3002\n\t\t\t\t\t\n\t\t\t\t\t2. \u534F\u8BAE\u7684\u8303\u56F4\n\t\t\t\t\t2.1 \u534F\u8BAE\u9002\u7528\u4E3B\u4F53\u8303\u56F4\n\t\t\t\t\t\n\t\t\t\t\t\u672C\u534F\u8BAE\u662F\u7528\u6237\u4E0E\u672C\u5DE5\u4F5C\u5BA4\u4E4B\u95F4\u5173\u4E8E\u7528\u6237\u4E0B\u8F7D\u3001\u5B89\u88C5\u3001\u4F7F\u7528\u3001\u590D\u5236\u672C\u8F6F\u4EF6\uFF0C\u4EE5\u53CA\u4F7F\u7528\u672C\u5DE5\u4F5C\u5BA4\u76F8\u5173\u670D\u52A1\u6240\u8BA2\u7ACB\u7684\u534F\u8BAE\u3002\n\t\t\t\t\t\n\t\t\t\t\t2.2 \u534F\u8BAE\u5173\u7CFB\u548C\u51B2\u7A81\u6761\u6B3E\n\t\t\t\t\t\n\t\t\t\t\t\u672C\u5DE5\u4F5C\u5BA4\u5728\u7F51\u7AD9\u4E0A\u516C\u5E03\u7684\u670D\u52A1\u6761\u6B3E\u53CA\u7528\u6237\u6240\u53C2\u52A0\u8BFE\u7A0B\u7684\u62DB\u751F\u65B9\u6848\u548C\u73ED\u6B21\u534F\u8BAE\u7B49\u662F\u672C\u534F\u8BAE\u7684\u8865\u5145\u3002\u672C\u534F\u8BAE\u4E0E\u4E0A\u8FF0\u5185\u5BB9\u5B58\u5728\u51B2\u7A81\u7684\uFF0C\u4EE5\u672C\u534F\u8BAE\u4E3A\u51C6\u3002 \u672C\u534F\u8BAE\u5185\u5BB9\u540C\u65F6\u5305\u62EC\u4E1C\u5927\u6B63\u4FDD\u516C\u53F8\u53EF\u80FD\u4E0D\u65AD\u53D1\u5E03\u7684\u5173\u4E8E\u672C\u670D\u52A1\u7684\u76F8\u5173\u534F\u8BAE\u3001\u4E1A\u52A1\u89C4\u5219\u7B49\u5185\u5BB9\u3002\u4E0A\u8FF0\u5185\u5BB9\u4E00\u7ECF\u6B63\u5F0F\u53D1\u5E03\uFF0C\u5373\u4E3A\u672C\u534F\u8BAE\u4E0D\u53EF\u5206\u5272\u7684\u7EC4\u6210\u90E8\u5206\uFF0C\u7528\u6237\u82E5\u7EE7\u7EED\u4F7F\u7528\u672C\u5DE5\u4F5C\u5BA4\u8F6F\u4EF6\u53CA\u670D\u52A1\u540C\u6837\u5E94\u5F53\u9075\u5B88\u3002\n\t\t\t\t\t\n\t\t\t\t\t3.\u670D\u52A1\u5185\u5BB9\u4E0E\u6388\u6743\u4F7F\u7528\u8303\u56F4\n\t\t\t\t\t3.1\u672C\u8F6F\u4EF6\u6839\u636E\u7528\u6237\u5B9E\u9645\u9700\u6C42\u63D0\u4F9B\u670D\u52A1\uFF0C\u4F8B\u5982\u542C\u8BFE\u3001\u505A\u9898\u7B49\u3002\u672C\u5DE5\u4F5C\u5BA4\u4FDD\u7559\u968F\u65F6\u53D8\u66F4\u3001\u4E2D\u65AD\u6216\u7EC8\u6B62\u90E8\u5206\u6216\u5168\u90E8\u672C\u670D\u52A1\u7684\u6743\u5229\u3002\n\t\t\t\t\t\n\t\t\t\t\t3.2\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u7684\u6388\u6743\u4F7F\u7528\u8303\u56F4\uFF1A\n\t\t\t\t\t\n\t\t\t\t\t1) \u7528\u6237\u53EF\u4EE5\u5728\u624B\u673A\u4E0A\u5B89\u88C5\u3001\u4F7F\u7528\u3001\u663E\u793A\u3001\u8FD0\u884C\u672C\u8F6F\u4EF6\u3002\n\t\t\t\t\t\n\t\t\t\t\t2) \u4FDD\u7559\u6743\u5229\uFF1A\u672A\u660E\u793A\u6388\u6743\u7684\u5176\u4ED6\u4E00\u5207\u6743\u5229\u5747\u7531\u672C\u5DE5\u4F5C\u5BA4\u6240\u6709\u3002\n\t\t\t\t\t\n\t\t\t\t\t4. \u4F7F\u7528\u89C4\u5219\n\t\t\t\t\t4.1\u8D26\u53F7\u4F7F\u7528\u89C4\u5219\n\t\t\t\t\t\n\t\t\t\t\t4.1.1\u7528\u6237\u5728\u4F7F\u7528\u672C\u8F6F\u4EF6\u524D\u9700\u8981\u6CE8\u518C\u4E00\u4E2A\u8D26\u53F7\u3002\u7528\u6237\u6CE8\u518C\u65F6\u9700\u8981\u63D0\u4F9B\u51C6\u786E\u7684\u4E2A\u4EBA\u8D44\u6599\uFF0C\u5982\u4E2A\u4EBA\u8D44\u6599\u6709\u4EFB\u4F55\u53D8\u52A8\uFF0C\u9700\u8981\u53CA\u65F6\u66F4\u65B0\u3002\u5982\u56E0\u6CE8\u518C\u4FE1\u606F\u4E0D\u51C6\u786E\u800C\u5F15\u8D77\u7684\u95EE\u9898\u7531\u7528\u6237\u672C\u4EBA\u627F\u62C5\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u4E0D\u8D1F\u4EFB\u4F55\u8D23\u4EFB\u5E76\u6709\u6743\u6682\u505C\u6216\u7EC8\u6B62\u7528\u6237\u7684\u8D26\u53F7\u3002\n\t\t\t\t\t\n\t\t\t\t\t4.1.2\u672C\u8F6F\u4EF6\u8D26\u53F7\u7684\u6240\u6709\u6743\u5F52\u672C\u5DE5\u4F5C\u5BA4\u6240\u6709\uFF0C\u7528\u6237\u5B8C\u6210\u7533\u8BF7\u6CE8\u518C\u624B\u7EED\u540E\uFF0C\u4EC5\u83B7\u5F97\u8D26\u53F7\u7684\u4F7F\u7528\u6743\uFF0C\u4E14\u8BE5\u4F7F\u7528\u6743\u4EC5\u5C5E\u4E8E\u521D\u59CB\u7533\u8BF7\u6CE8\u518C\u4EBA\u3002\u540C\u65F6\uFF0C\u521D\u59CB\u7533\u8BF7\u6CE8\u518C\u4EBA\u4E0D\u5F97\u8D60\u4E0E\u3001\u501F\u7528\u3001\u79DF\u7528\u3001\u8F6C\u8BA9\u6216\u552E\u5356\u8D26\u53F7\u6216\u8005\u4EE5\u5176\u4ED6\u65B9\u5F0F\u8BB8\u53EF\u975E\u521D\u59CB\u7533\u8BF7\u6CE8\u518C\u4EBA\u4F7F\u7528\u8D26\u53F7\u3002\n\t\t\t\t\t\n\t\t\t\t\t4.1.3\u5982\u82E5\u6709\u4EFB\u4F55\u7B2C\u4E09\u65B9\u5411\u672C\u5DE5\u4F5C\u5BA4\u53D1\u51FA\u6307\u793A\uFF0C\u5728\u786E\u8BA4\u5176\u63D0\u4F9B\u8D26\u6237\u3001\u5BC6\u7801\u4FE1\u606F\u51C6\u786E\u65E0\u8BEF\u7684\u60C5\u51B5\u4E0B\uFF0C\u7528\u6237\u540C\u610F\u4E14\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u89C6\u8BE5\u884C\u4E3A\u83B7\u5F97\u4E86\u7528\u6237\u7684\u5145\u5206\u6388\u6743\uFF0C\u8BE5\u884C\u4E3A\u6240\u4EA7\u751F\u7ED3\u679C\u76F4\u63A5\u5F52\u5C5E\u4E8E\u7528\u6237\u672C\u8EAB\u3002\n\t\t\t\t\t\n\t\t\t\t\t4.1.4\u7528\u6237\u627F\u62C5\u8D26\u53F7\u4E0E\u5BC6\u7801\u7684\u4FDD\u7BA1\u8D23\u4EFB\uFF0C\u7528\u6237\u5BF9\u4EE5\u5176\u8D26\u53F7\u53D1\u751F\u7684\u6216\u901A\u8FC7\u5176\u8D26\u53F7\u53D1\u751F\u7684\u4E00\u5207\u6D3B\u52A8\u548C\u4E8B\u4EF6\uFF08\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u7528\u6237\u53D1\u8868\u7684\u4EFB\u4F55\u5185\u5BB9\u4EE5\u53CA\u7531\u6B64\u4EA7\u751F\u7684\u4EFB\u4F55\u7ED3\u679C\uFF09\u8D1F\u5168\u90E8\u6CD5\u5F8B\u8D23\u4EFB\u3002\u7528\u6237\u987B\u91CD\u89C6\u8D26\u53F7\u4E0E\u5BC6\u7801\u7684\u4FDD\u62A4\uFF0C\u82E5\u56E0\u4E3A\u7528\u6237\u81EA\u8EAB\u539F\u56E0\uFF0C\u800C\u5BFC\u81F4\u8D26\u53F7\u4E0E\u5BC6\u7801\u906D\u4ED6\u4EBA\u975E\u6CD5\u4F7F\u7528\u65F6\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u5C06\u4E0D\u627F\u62C5\u4EFB\u4F55\u8D23\u4EFB\u3002\u7528\u6237\u81EA\u8EAB\u539F\u56E0\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\uFF1A\u4EFB\u610F\u5411\u7B2C\u4E09\u8005\u900F\u9732\u8D26\u53F7\u548C\u5BC6\u7801\u53CA\u6240\u6709\u6CE8\u518C\u8D44\u6599\uFF1B\u591A\u4EBA\u5171\u4EAB\u540C\u4E00\u4E2A\u8D26\u53F7\uFF1B\u5B89\u88C5\u975E\u6CD5\u6216\u6765\u8DEF\u4E0D\u660E\u7684\u7A0B\u5E8F\u7B49\u3002\n\t\t\t\t\t\n\t\t\t\t\t4.2\u7528\u6237\u4F7F\u7528\u89C4\u5219\n\t\t\t\t\t\n\t\t\t\t\t4.2.1\u7528\u6237\u5728\u4F7F\u7528\u672C\u8F6F\u4EF6\u65F6\uFF0C\u5FC5\u987B\u9075\u5FAA\u4EE5\u4E0B\u539F\u5219\uFF1A\n\t\t\t\t\t\n\t\t\t\t\t1) \u9075\u5B88\u4E2D\u56FD\u6709\u5173\u7684\u6CD5\u5F8B\u548C\u6CD5\u89C4\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t2) \u4E0D\u5F97\u4E3A\u4EFB\u4F55\u975E\u6CD5\u76EE\u7684\u800C\u4F7F\u7528\u672C\u670D\u52A1\u7CFB\u7EDF\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t3) \u9075\u5B88\u6240\u6709\u4E0E\u672C\u670D\u52A1\u6709\u5173\u7684\u7F51\u7EDC\u534F\u8BAE\u3001\u89C4\u5B9A\u548C\u7A0B\u5E8F\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t4) \u4E0D\u5F97\u5229\u7528\u672C\u8F6F\u4EF6\u7CFB\u7EDF\u8FDB\u884C\u4EFB\u4F55\u53EF\u80FD\u5BF9\u4E92\u8054\u7F51\u7684\u6B63\u5E38\u8FD0\u8F6C\u9020\u6210\u4E0D\u5229\u5F71\u54CD\u7684\u884C\u4E3A\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t5) \u4E0D\u5F97\u5229\u7528\u672C\u8F6F\u4EF6\u670D\u52A1\u7CFB\u7EDF\u8FDB\u884C\u4EFB\u4F55\u4E0D\u5229\u4E8E\u5176\u4ED6\u7528\u6237\u7684\u884C\u4E3A\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t6) \u5982\u53D1\u73B0\u4EFB\u4F55\u975E\u6CD5\u4F7F\u7528\u7528\u6237\u8D26\u53F7\u6216\u8D26\u53F7\u51FA\u73B0\u5B89\u5168\u6F0F\u6D1E\u7684\u60C5\u51B5\uFF0C\u5E94\u7ACB\u5373\u901A\u544A\u4E1C\u5927\u6B63\u4FDD\u5B98\u65B9\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t7) \u4E0D\u4F7F\u7528\u5916\u6302\u6216\u8005\u5176\u4ED6\u4F5C\u5F0A\u624B\u6BB5\u3001\u4E0D\u6B63\u5F53\u6216\u4E0D\u516C\u5E73\u624B\u6BB5\u53C2\u52A0\u672C\u8F6F\u4EF6\u63D0\u4F9B\u7684\u672C\u670D\u52A1\u3002\n\t\t\t\t\t\n\t\t\t\t\t4.2.2\u672C\u5DE5\u4F5C\u5BA4\u81F4\u529B\u4E8E\u4E3A\u7528\u6237\u63D0\u4F9B\u6587\u660E\u5065\u5EB7\u3001\u89C4\u8303\u6709\u5E8F\u7684\u670D\u52A1\uFF0C\u7528\u6237\u5E94\u9075\u5B88\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u76F8\u5173\u6CD5\u5F8B\u6CD5\u89C4(\u5982\u679C\u7528\u6237\u662F\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u5883\u5916\u7684\u4F7F\u7528\u8005\uFF0C\u8FD8\u5E94\u9075\u5B88\u6240\u5C5E\u56FD\u5BB6\u6216\u5730\u533A\u7684\u6CD5\u5F8B\u6CD5\u89C4)\uFF0C\u7528\u6237\u5C06\u81EA\u884C\u627F\u62C5\u7528\u6237\u6240\u53D1\u5E03\u7684\u4FE1\u606F\u5185\u5BB9\u7684\u8D23\u4EFB\u3002\u7279\u522B\u5730\uFF0C\u7528\u6237\u4E0D\u5F97\u53D1\u5E03\u4E0B\u5217\u5185\u5BB9\uFF1A\n\t\t\t\t\t\n\t\t\t\t\t1) \u53CD\u5BF9\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u5BAA\u6CD5\u6240\u786E\u5B9A\u7684\u57FA\u672C\u539F\u5219\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t2) \u5371\u5BB3\u56FD\u5BB6\u7EDF\u4E00\u3001\u4E3B\u6743\u548C\u9886\u571F\u5B8C\u6574\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t3) \u6CC4\u9732\u56FD\u5BB6\u79D8\u5BC6\uFF0C\u5371\u5BB3\u56FD\u5BB6\u5B89\u5168\u6216\u8005\u635F\u5BB3\u56FD\u5BB6\u8363\u8A89\u548C\u5229\u76CA\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t4) \u717D\u52A8\u6C11\u65CF\u4EC7\u6068\u3001\u6C11\u65CF\u6B67\u89C6\uFF0C\u7834\u574F\u6C11\u65CF\u56E2\u7ED3\u6216\u8005\u4FB5\u5BB3\u6C11\u65CF\u98CE\u4FD7\u3001\u4E60\u60EF\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t5) \u7834\u574F\u56FD\u5BB6\u5B97\u6559\u653F\u7B56\uFF0C\u5BA3\u626C\u90AA\u6559\u3001\u8FF7\u4FE1\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t6) \u6563\u5E03\u8C23\u8A00\uFF0C\u6270\u4E71\u793E\u4F1A\u79E9\u5E8F\uFF0C\u7834\u574F\u793E\u4F1A\u7A33\u5B9A\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t7) \u6563\u5E03\u6DEB\u79FD\u3001\u8D4C\u535A\u3001\u66B4\u529B\u6216\u8005\u6559\u5506\u72AF\u7F6A\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t8) \u4FAE\u8FB1\u6216\u8005\u8BFD\u8C24\u4ED6\u4EBA\uFF0C\u4FB5\u5BB3\u4ED6\u4EBA\u5408\u6CD5\u6743\u76CA\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t9) \u5371\u5BB3\u793E\u4F1A\u516C\u5FB7\u6216\u8005\u6C11\u65CF\u4F18\u79C0\u6587\u5316\u4F20\u7EDF\u7684\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t10) \u5BA3\u626C\u5916\u6302,\u79C1\u670D\u4EE5\u53CA\u6728\u9A6C\u7684\u76F8\u5173\u5185\u5BB9\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t11) \u520A\u767B\u4EFB\u4F55\u7ECF\u672C\u5DE5\u4F5C\u5BA4\u5408\u7406\u5224\u65AD\u4E3A\u4E0D\u59A5\u5F53\u6216\u8005\u672C\u5DE5\u4F5C\u5BA4\u672A\u8BA4\u53EF\u7684\u8F6F\u4EF6\u3001\u6587\u4EF6\u7B49\u5728\u5185\u7684\u4E3B\u9875\u5730\u5740\u6216\u8005\u94FE\u63A5\u7684\u884C\u4E3A\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t12) \u542B\u6709\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u6CD5\u5F8B\u3001\u884C\u653F\u6CD5\u89C4\u7981\u6B62\u7684\u5176\u4ED6\u5185\u5BB9\u7684\u3002\n\t\t\t\t\t\n\t\t\t\t\t5. \u77E5\u8BC6\u4EA7\u6743\n\t\t\t\t\t5.1\u672C\u5DE5\u4F5C\u5BA4\u662F\u672C\u8F6F\u4EF6\u7684\u77E5\u8BC6\u4EA7\u6743\u6743\u5229\u4EBA\u3002\u672C\u8F6F\u4EF6\u7684\u4E00\u5207\u8457\u4F5C\u6743\u3001\u5546\u6807\u6743\u3001\u4E13\u5229\u6743\u3001\u5546\u4E1A\u79D8\u5BC6\u7B49\u77E5\u8BC6\u4EA7\u6743\uFF0C\u4EE5\u53CA\u4E0E\u672C\u8F6F\u4EF6\u76F8\u5173\u7684\u6240\u6709\u4FE1\u606F\u5185\u5BB9\uFF08\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u89C6\u9891\u8BFE\u4EF6\u3001\u6587\u5B57\u3001\u56FE\u7247\u3001\u97F3\u9891\u3001\u56FE\u8868\u3001\u754C\u9762\u8BBE\u8BA1\u3001\u7248\u9762\u6846\u67B6\u3001\u6709\u5173\u6570\u636E\u6216\u7535\u5B50\u6587\u6863\u7B49\uFF09\u5747\u53D7\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u6CD5\u5F8B\u6CD5\u89C4\u548C\u76F8\u5E94\u7684\u56FD\u9645\u6761\u7EA6\u4FDD\u62A4\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u4EAB\u6709\u4E0A\u8FF0\u77E5\u8BC6\u4EA7\u6743\uFF0C\u9664\u975E\u4E8B\u5148\u7ECF\u672C\u5DE5\u4F5C\u5BA4\u7684\u5408\u6CD5\u6388\u6743\uFF0C\u4EFB\u4F55\u4EBA\u7686\u4E0D\u5F97\u64C5\u81EA\u4EE5\u4EFB\u4F55\u5F62\u5F0F\u4F7F\u7528\uFF0C\u5426\u5219\u672C\u5DE5\u4F5C\u5BA4\u53EF\u7ACB\u5373\u7EC8\u6B62\u5411\u8BE5\u7528\u6237\u63D0\u4F9B\u4EA7\u54C1\u548C\u670D\u52A1\uFF0C\u5E76\u4F9D\u6CD5\u8FFD\u7A76\u5176\u6CD5\u5F8B\u8D23\u4EFB\uFF0C\u8D54\u507F\u672C\u5DE5\u4F5C\u5BA4\u7684\u4E00\u5207\u635F\u5931\u3002\n\t\t\t\t\t\n\t\t\t\t\t5.2 \u7528\u6237\u53EA\u6709\u5728\u83B7\u5F97\u672C\u5DE5\u4F5C\u5BA4\u6216\u5176\u4ED6\u76F8\u5173\u6743\u5229\u4EBA\u7684\u6388\u6743\u4E4B\u540E\u624D\u80FD\u4F7F\u7528\u8FD9\u4E9B\u5185\u5BB9\uFF0C\u800C\u4E0D\u80FD\u64C5\u81EA\u590D\u5236\u3001\u518D\u9020\u8FD9\u4E9B\u5185\u5BB9\u3001\u6216\u521B\u9020\u4E0E\u5185\u5BB9\u6709\u5173\u7684\u6D3E\u751F\u4EA7\u54C1\u3002\n\t\t\t\t\t\n\t\t\t\t\t5.3 \u7528\u6237\u539F\u521B\u4F5C\u54C1\u4E0A\u8F7D\u3001\u4F20\u9001\u3001\u8F93\u5165\u6216\u4EE5\u5176\u4ED6\u65B9\u5F0F\u63D0\u4F9B\u81F3\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u65F6\uFF0C\u89C6\u4E3A\u7528\u6237\u6388\u4E88\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u5BF9\u5176\u4F5C\u54C1\u7684\u4F7F\u7528\u6743\uFF0C\u8BE5\u6388\u6743\u65E0\u5730\u57DF\u3001\u671F\u9650\u3001\u65B9\u5F0F\u9650\u5236\uFF0C\u8BE5\u6388\u6743\u4E3A\u514D\u8D39\u6388\u6743\uFF0C\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u53EF\u5728\u73B0\u884C\u6CD5\u5F8B\u8303\u56F4\u5185\u5C31\u8BE5\u4F5C\u54C1\u8FDB\u884C\u4F7F\u7528\uFF0C\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u590D\u5236\u3001\u53D1\u884C\u3001\u51FA\u79DF\u3001\u5C55\u89C8\u3001\u8868\u6F14\u3001\u653E\u6620\u3001\u5E7F\u64AD\u3001\u4FE1\u606F\u7F51\u7EDC\u4F20\u64AD\u3001\u6444\u5236\u3001\u6539\u7F16\u3001\u7FFB\u8BD1\u3001\u6C47\u7F16\u7B49\uFF0C\u5E76\u53EF\u5C06\u524D\u8FF0\u6743\u5229\u8F6C\u3001\u5206\u6388\u6743\u7ED9\u5176\u4ED6\u7B2C\u4E09\u65B9\u3002\n\t\t\t\t\t\n\t\t\t\t\t5.4\u7528\u6237\u5728\u672C\u8F6F\u4EF6\u4E0A\u53D1\u5E03\u7684\u4FE1\u606F\u4E0D\u5F97\u4FB5\u72AF\u4EFB\u4F55\u7B2C\u4E09\u4EBA\u7684\u77E5\u8BC6\u4EA7\u6743\uFF0C\u672A\u7ECF\u76F8\u5173\u6743\u5229\u4EBA\u4E4B\u4E8B\u5148\u4E66\u9762\u540C\u610F\uFF0C\u7528\u6237\u4E0D\u5F97\u4EE5\u4EFB\u4F55\u65B9\u5F0F\u4E0A\u4F20\u3001\u53D1\u5E03\u3001\u4FEE\u6539\u3001\u4F20\u64AD\u6216\u590D\u5236\u4EFB\u4F55\u53D7\u8457\u4F5C\u6743\u4FDD\u62A4\u7684\u6750\u6599\u3001\u5546\u6807\u6216\u5C5E\u4E8E\u5176\u4ED6\u4EBA\u7684\u4E13\u6709\u4FE1\u606F\u3002\n\t\t\t\t\t\n\t\t\t\t\t6. \u9690\u79C1\u4FDD\u62A4\n\t\t\t\t\t6.1 \u4FDD\u62A4\u7528\u6237\u9690\u79C1\u662F\u672C\u8F6F\u4EF6\u7684\u4E00\u9879\u57FA\u672C\u653F\u7B56\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u4FDD\u8BC1\u672A\u7ECF\u7528\u6237\u540C\u610F\u4E0D\u5BF9\u5916\u516C\u5F00\u6216\u5411\u7B2C\u4E09\u65B9\u63D0\u4F9B\u7528\u6237\u7533\u8BF7\u8D44\u6599\u53CA\u7528\u6237\u5728\u4F7F\u7528\u672C\u670D\u52A1\u65F6\u5B58\u50A8\u5728\u672C\u8F6F\u4EF6\u7684\u4E2A\u4EBA\u4FE1\u606F\uFF0C\u4F46\u4E0B\u5217\u60C5\u51B5\u9664\u5916\uFF1A\n\t\t\t\t\t\n\t\t\t\t\t1) \u4E8B\u5148\u83B7\u5F97\u7528\u6237\u7684\u660E\u786E\u6388\u6743\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t2) \u6839\u636E\u6709\u5173\u7684\u6CD5\u5F8B\u6CD5\u89C4\u8981\u6C42\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t3) \u6309\u7167\u76F8\u5173\u653F\u5E9C\u4E3B\u7BA1\u90E8\u95E8\u7684\u8981\u6C42\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t4) \u4E3A\u7EF4\u62A4\u793E\u4F1A\u516C\u4F17\u7684\u5229\u76CA\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t5) \u4E3A\u7EF4\u62A4\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u7684\u5408\u6CD5\u6743\u76CA\u3002\n\t\t\t\t\t\n\t\t\t\t\t6.2\u672C\u8F6F\u4EF6\u53EF\u80FD\u4F1A\u4E0E\u7B2C\u4E09\u65B9\u5408\u4F5C\u5411\u7528\u6237\u63D0\u4F9B\u76F8\u5173\u7684\u672C\u670D\u52A1\uFF0C\u5728\u6B64\u60C5\u51B5\u4E0B\uFF0C\u5982\u8BE5\u7B2C\u4E09\u65B9\u540C\u610F\u627F\u62C5\u4E0E\u672C\u5DE5\u4F5C\u5BA4\u540C\u7B49\u7684\u4FDD\u62A4\u7528\u6237\u9690\u79C1\u7684\u8D23\u4EFB\uFF0C\u5219\u672C\u5DE5\u4F5C\u5BA4\u53EF\u5C06\u7528\u6237\u7684\u4E2A\u4EBA\u4FE1\u606F\u7B49\u63D0\u4F9B\u7ED9\u8BE5\u7B2C\u4E09\u65B9\u3002\n\t\t\t\t\t\n\t\t\t\t\t6.3 \u5728\u4E0D\u900F\u9732\u5355\u4E2A\u7528\u6237\u9690\u79C1\u8D44\u6599\u7684\u524D\u63D0\u4E0B\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u5BF9\u6574\u4E2A\u7528\u6237\u6570\u636E\u5E93\u8FDB\u884C\u5206\u6790\u5E76\u5BF9\u7528\u6237\u6570\u636E\u5E93\u8FDB\u884C\u5546\u4E1A\u4E0A\u7684\u5229\u7528\uFF08\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u516C\u5E03\u3001\u5206\u6790\u6216\u4EE5\u5176\u5B83\u65B9\u5F0F\u4F7F\u7528\u7528\u6237\u8BBF\u95EE\u91CF\u3001\u8BBF\u95EE\u65F6\u6BB5\u3001\u7528\u6237\u504F\u597D\u7B49\u7528\u6237\u6570\u636E\u4FE1\u606F\uFF09\u3002\n\t\t\t\t\t\n\t\t\t\t\t7. \u514D\u8D23\u58F0\u660E\n\t\t\t\t\t7.1 \u5BF9\u4E8E\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u7684\u4EA7\u54C1\u548C\u670D\u52A1\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u4EC5\u4F5C\u4E0B\u8FF0\u6709\u9650\u4FDD\u8BC1\uFF0C\u8BE5\u6709\u9650\u4FDD\u8BC1\u53D6\u4EE3\u4EFB\u4F55\u6587\u6863\u3001\u5305\u88C5\u3001\u6216\u5176\u4ED6\u8D44\u6599\u4E2D\u7684\u4EFB\u4F55\u5176\u4ED6\u660E\u793A\u6216\u9ED8\u793A\u7684\u4FDD\u8BC1(\u5982\u679C\u6709)\u3002\u672C\u5DE5\u4F5C\u5BA4\u4EC5\u4EE5\"\u73B0\u6709\u72B6\u51B5\u4E14\u5305\u542B\u6240\u6709\u9519\u8BEF\"\u7684\u5F62\u5F0F\u63D0\u4F9B\u76F8\u5173\u7684\u4EA7\u54C1\u3001\u8F6F\u4EF6\u6216\u7A0B\u5E8F\u53CA\u4EFB\u4F55\u652F\u6301\u670D\u52A1\uFF0C\u5E76\u4EC5\u4FDD\u8BC1\uFF1A\n\t\t\t\t\t\n\t\t\t\t\t1) \u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u6240\u63D0\u4F9B\u7684\u4EA7\u54C1\u548C\u670D\u52A1\u80FD\u57FA\u672C\u7B26\u5408\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u6B63\u5F0F\u516C\u5E03\u7684\u8981\u6C42\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t2) \u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u6240\u63D0\u4F9B\u7684\u76F8\u5173\u4EA7\u54C1\u548C\u670D\u52A1\u57FA\u672C\u4E0E\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u6B63\u5F0F\u516C\u5E03\u7684\u670D\u52A1\u627F\u8BFA\u76F8\u7B26\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t3) \u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u4EC5\u5728\u5546\u4E1A\u4E0A\u5141\u8BB8\u7684\u5408\u7406\u8303\u56F4\u5185\u5C3D\u529B\u89E3\u51B3\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u5728\u63D0\u4F9B\u4EA7\u54C1\u548C\u670D\u52A1\u8FC7\u7A0B\u4E2D\u6240\u9047\u5230\u7684\u4EFB\u4F55\u95EE\u9898\u3002\n\t\t\t\t\t\n\t\t\t\t\t7.2 \u5728\u9002\u7528\u6CD5\u5F8B\u5141\u8BB8\u7684\u6700\u5927\u8303\u56F4\u5185\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u660E\u786E\u8868\u793A\u4E0D\u63D0\u4F9B\u4EFB\u4F55\u5176\u4ED6\u7C7B\u578B\u7684\u4FDD\u8BC1\uFF0C\u4E0D\u8BBA\u662F\u660E\u793A\u7684\u6216\u9ED8\u793A\u7684\uFF0C\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u672C\u8F6F\u4EF6\u7684\u9002\u9500\u6027\u3001\u9002\u7528\u6027\u3001\u53EF\u9760\u6027\u3001\u51C6\u786E\u6027\u3001\u5B8C\u6574\u6027\u3001\u65E0\u75C5\u6BD2\u4EE5\u53CA\u65E0\u9519\u8BEF\u7684\u4EFB\u4F55\u660E\u793A\u6216\u9ED8\u793A\u4FDD\u8BC1\u548C\u8D23\u4EFB\u3002\n\t\t\t\t\t\n\t\t\t\t\t7.3 \u5728\u9002\u7528\u6CD5\u5F8B\u5141\u8BB8\u7684\u6700\u5927\u8303\u56F4\u5185\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u5E76\u4E0D\u62C5\u4FDD\u672C\u8F6F\u4EF6\u6240\u63D0\u4F9B\u7684\u4EA7\u54C1\u548C\u670D\u52A1\u4E00\u5B9A\u80FD\u6EE1\u8DB3\u7528\u6237\u7684\u8981\u6C42\uFF0C\u4E5F\u4E0D\u62C5\u4FDD\u63D0\u4F9B\u7684\u4EA7\u54C1\u548C\u670D\u52A1\u4E0D\u4F1A\u88AB\u4E2D\u65AD\uFF0C\u5E76\u4E14\u5BF9\u4EA7\u54C1\u548C\u670D\u52A1\u7684\u53CA\u65F6\u6027\uFF0C\u5B89\u5168\u6027\uFF0C\u51FA\u9519\u53D1\u751F\uFF0C\u4EE5\u53CA\u4FE1\u606F\u662F\u5426\u80FD\u51C6\u786E\uFF0C\u53CA\u65F6\uFF0C\u987A\u5229\u7684\u4F20\u9001\u5747\u4E0D\u4F5C\u4EFB\u4F55\u62C5\u4FDD\u3002\n\t\t\t\t\t\n\t\t\t\t\t7.4 \u5728\u9002\u7528\u6CD5\u5F8B\u5141\u8BB8\u7684\u6700\u5927\u8303\u56F4\u5185\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u4E0D\u5C31\u56E0\u7528\u6237\u4F7F\u7528\u672C\u8F6F\u4EF6\u7684\u4EA7\u54C1\u548C\u670D\u52A1\u5F15\u8D77\u7684\uFF0C\u6216\u5728\u4EFB\u4F55\u65B9\u9762\u4E0E\u672C\u8F6F\u4EF6\u7684\u4EA7\u54C1\u548C\u670D\u52A1\u6709\u5173\u7684\u4EFB\u4F55\u610F\u5916\u7684\u3001\u975E\u76F4\u63A5\u7684\u3001\u7279\u6B8A\u7684\u3001\u6216\u95F4\u63A5\u7684\u635F\u5BB3\u6216\u8BF7\u6C42(\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u56E0\u4EBA\u8EAB\u4F24\u5BB3\u3001\u56E0\u9690\u79C1\u6CC4\u6F0F\u3001\u56E0\u672A\u80FD\u5C65\u884C\u5305\u62EC\u8BDA\u4FE1\u6216\u5408\u7406\u8C28\u614E\u5728\u5185\u7684\u4EFB\u4F55\u8D23\u4EFB\u3001\u56E0\u8FC7\u5931\u548C\u56E0\u4EFB\u4F55\u5176\u4ED6\u91D1\u94B1\u4E0A\u7684\u635F\u5931\u6216\u5176\u4ED6\u635F\u5931\u800C\u9020\u6210\u7684\u635F\u5BB3\u8D54\u507F)\u627F\u62C5\u4EFB\u4F55\u8D23\u4EFB\u3002\n\t\t\t\t\t\n\t\t\t\t\t7.5\u672C\u5DE5\u4F5C\u5BA4\u4FDD\u7559\u91C7\u53D6\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u5408\u5E76\u670D\u52A1\u5668\u7B49\u5F62\u5F0F\u4EE5\u8FBE\u5230\u670D\u52A1\u5668\u8D44\u6E90\u4F18\u5316\u5229\u7528\u7684\u6743\u5229\uFF0C\u5E76\u5BF9\u7531\u6B64\u800C\u53EF\u80FD\u5BFC\u81F4\u7684\u7528\u6237\u5229\u76CA\u635F\u5931\u4E0D\u627F\u62C5\u8D23\u4EFB\u3002\n\t\t\t\t\t\n\t\t\t\t\t7.6 \u7528\u6237\u5728\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u4E0A\u6240\u8868\u8FBE\u7684\u89C2\u70B9\u3001\u5EFA\u8BAE\u7B49\u5185\u5BB9\u5747\u4E3A\u7528\u6237\u672C\u4EBA\u770B\u6CD5\uFF0C\u4E0D\u4EE3\u8868\u672C\u5DE5\u4F5C\u5BA4\u53CA\u672C\u8F6F\u4EF6\u5B98\u65B9\u7684\u89C2\u70B9\u3002\u5BF9\u4E8E\u7528\u6237\u8FDD\u6CD5\u6216\u8005\u8FDD\u53CD\u672C\u534F\u8BAE\u7684\u4F7F\u7528\u800C\u5F15\u8D77\u7684\u4E00\u5207\u8D23\u4EFB\uFF0C\u7531\u7528\u6237\u8D1F\u5168\u90E8\u8D23\u4EFB\uFF0C\u4E00\u6982\u4E0E\u672C\u5DE5\u4F5C\u5BA4\u65E0\u5173\uFF0C\u5BFC\u81F4\u672C\u5DE5\u4F5C\u5BA4\u635F\u5931\u7684\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u8981\u6C42\u7528\u6237\u8D54\u507F\uFF0C\u5E76\u6709\u6743\u7ACB\u5373\u505C\u6B62\u5411\u5176\u63D0\u4F9B\u670D\u52A1\u3002\n\t\t\t\t\t\n\t\t\t\t\t7.7 \u7528\u6237\u7ECF\u7531\u672C\u8F6F\u4EF6\u672C\u670D\u52A1\u4E0E\u5E7F\u544A\u5546\u8FDB\u884C\u901A\u8BAF\u8054\u7CFB\u6216\u5546\u4E1A\u5F80\u6765\u6216\u53C2\u4E0E\u4FC3\u9500\u6D3B\u52A8\uFF0C\u5B8C\u5168\u5C5E\u4E8E\u7528\u6237\u4E0E\u5E7F\u544A\u5546\u4E4B\u95F4\u7684\u884C\u4E3A\uFF0C\u4E0E\u672C\u5DE5\u4F5C\u5BA4\u6CA1\u6709\u4EFB\u4F55\u5173\u7CFB\uFF0C\u82E5\u56E0\u5546\u4E1A\u884C\u4E3A\u6240\u4EA7\u751F\u4E4B\u4EFB\u4F55\u635F\u5BB3\u6216\u635F\u5931\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u4E0D\u627F\u62C5\u4EFB\u4F55\u8D23\u4EFB\u3002\n\t\t\t\t\t\n\t\t\t\t\t8. \u670D\u52A1\u53D8\u66F4\u3001\u4E2D\u65AD\u6216\u7EC8\u6B62\n\t\t\t\t\t8.1\u8F6F\u4EF6\u66F4\u65B0\n\t\t\t\t\t\n\t\t\t\t\t8.1.1\u4E3A\u4E86\u6539\u5584\u7528\u6237\u4F53\u9A8C\u3001\u5B8C\u5584\u670D\u52A1\u5185\u5BB9\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u5C06\u4E0D\u65AD\u52AA\u529B\u5F00\u53D1\u65B0\u7684\u670D\u52A1\uFF0C\u5E76\u4E3A\u7528\u6237\u4E0D\u65F6\u63D0\u4F9B\u8F6F\u4EF6\u66F4\u65B0\uFF08\u8FD9\u4E9B\u66F4\u65B0\u53EF\u80FD\u4F1A\u91C7\u53D6\u8F6F\u4EF6\u66FF\u6362\u3001\u4FEE\u6539\u3001\u529F\u80FD\u5F3A\u5316\u3001\u7248\u672C\u5347\u7EA7\u7B49\u5F62\u5F0F\uFF09\u3002\n\t\t\t\t\t\n\t\t\t\t\t8.1.2\u4E3A\u4E86\u4FDD\u8BC1\u672C\u8F6F\u4EF6\u53CA\u670D\u52A1\u7684\u5B89\u5168\u6027\u548C\u529F\u80FD\u7684\u4E00\u81F4\u6027\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u4E0D\u7ECF\u5411\u7528\u6237\u7279\u522B\u901A\u77E5\u800C\u5BF9\u8F6F\u4EF6\u8FDB\u884C\u66F4\u65B0\uFF0C\u6216\u8005\u5BF9\u8F6F\u4EF6\u7684\u90E8\u5206\u529F\u80FD\u6548\u679C\u8FDB\u884C\u6539\u53D8\u6216\u9650\u5236\u3002\u672C\u8F6F\u4EF6\u65B0\u7248\u672C\u53D1\u5E03\u540E\uFF0C\u65E7\u7248\u672C\u7684\u8F6F\u4EF6\u53EF\u80FD\u65E0\u6CD5\u4F7F\u7528\u3002\u672C\u5DE5\u4F5C\u5BA4\u4E0D\u4FDD\u8BC1\u65E7\u7248\u672C\u8F6F\u4EF6\u7EE7\u7EED\u53EF\u7528\u53CA\u76F8\u5E94\u7684\u5BA2\u6237\u670D\u52A1\uFF0C\u8BF7\u7528\u6237\u968F\u65F6\u6838\u5BF9\u5E76\u4E0B\u8F7D\u6700\u65B0\u7248\u672C\u3002\n\t\t\t\t\t\n\t\t\t\t\t8.2 \u4E3A\u4E86\u8F6F\u4EF6\u7684\u6B63\u5E38\u8FD0\u884C\uFF0C\u672C\u8F6F\u4EF6\u624B\u673A\u5E94\u7528\u9700\u8981\u5B9A\u671F\u6216\u4E0D\u5B9A\u671F\u5730\u5BF9\u8F6F\u4EF6\u8FDB\u884C\u505C\u673A\u7EF4\u62A4\uFF0C\u56E0\u6B64\u7C7B\u60C5\u51B5\u800C\u9020\u6210\u7684\u6B63\u5E38\u670D\u52A1\u4E2D\u65AD\u3001\u505C\u6B62\uFF0C\u7528\u6237\u5E94\u8BE5\u4E88\u4EE5\u7406\u89E3\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u5E94\u5C3D\u529B\u907F\u514D\u670D\u52A1\u4E2D\u65AD\u3001\u505C\u6B62\u6216\u5C06\u4E2D\u65AD\u3001\u505C\u6B62\u65F6\u95F4\u9650\u5236\u5728\u6700\u77ED\u65F6\u95F4\u5185\u3002\n\t\t\t\t\t\n\t\t\t\t\t8.3 \u670D\u52A1\u4E2D\u65AD\u6216\u7EC8\u6B62\n\t\t\t\t\t\n\t\t\t\t\t8.3.1\u5982\u53D1\u751F\u4E0B\u5217\u4EFB\u4F55\u4E00\u79CD\u60C5\u5F62\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u968F\u65F6\u4E2D\u65AD\u6216\u7EC8\u6B62\u5411\u7528\u6237\u63D0\u4F9B\u672C\u534F\u8BAE\u9879\u4E0B\u7684\u672C\u670D\u52A1\u800C\u65E0\u9700\u901A\u77E5\u7528\u6237\uFF0C\u5BF9\u56E0\u6B64\u800C\u4EA7\u751F\u7684\u4E0D\u4FBF\u6216\u635F\u5BB3\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u5BF9\u7528\u6237\u6216\u7B2C\u4E09\u4EBA\u5747\u4E0D\u627F\u62C5\u4EFB\u4F55\u8D23\u4EFB\uFF1A\n\t\t\t\t\t\n\t\t\t\t\t1) \u5B9A\u671F\u68C0\u67E5\u6216\u65BD\u5DE5\uFF0C\u66F4\u65B0\u8F6F\u786C\u4EF6\u7B49\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u6682\u505C\u670D\u52A1\uFF0C\u4F46\u6211\u4EEC\u4F1A\u5C3D\u5FEB\u5B8C\u6210\u7EF4\u62A4\u3001\u66F4\u65B0\u5DE5\u4F5C\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t2) \u670D\u52A1\u5668\u906D\u53D7\u635F\u574F\uFF0C\u65E0\u6CD5\u6B63\u5E38\u8FD0\u4F5C\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t3) \u7A81\u53D1\u6027\u7684\u8F6F\u786C\u4EF6\u8BBE\u5907\u4E0E\u7535\u5B50\u901A\u4FE1\u8BBE\u5907\u6545\u969C\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t4) \u7F51\u7EDC\u63D0\u4F9B\u5546\u7EBF\u8DEF\u6216\u5176\u5B83\u6545\u969C\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t5) \u5728\u7D27\u6025\u60C5\u51B5\u4E4B\u4E0B\u4E3A\u7EF4\u62A4\u56FD\u5BB6\u5B89\u5168\u6216\u5176\u5B83\u7528\u6237\u53CA\u7B2C\u4E09\u8005\u4E4B\u4EBA\u8EAB\u5B89\u5168\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t6) \u5730\u9707\u7B49\u4E0D\u53EF\u6297\u529B\u53CA\u5176\u4ED6\u7B2C\u4E09\u65B9\u539F\u56E0\u9020\u6210\u670D\u52A1\u762B\u75EA\u3001\u4E2D\u65AD\u6216\u4E22\u5931\u3002\n\t\t\t\t\t\n\t\t\t\t\t8.3.2 \u9664\u524D\u6B3E\u6240\u8FF0\u60C5\u5F62\u5916\uFF0C\u7528\u6237\u540C\u610F\u672C\u5DE5\u4F5C\u5BA4\u4EAB\u6709\u901A\u8FC7\u5728\u63D0\u524D1\u4E2A\u6708\uFF08\u5982\u76F8\u5173\u6CD5\u5F8B\u6709\u7279\u522B\u89C4\u5B9A\u7684\u4E14\u6CD5\u5F8B\u89C4\u5B9A\u7684\u63D0\u524D\u901A\u77E5\u65F6\u95F4\u8D85\u8FC7\u4E0A\u8FF0\u671F\u9650\u7684\uFF0C\u4EE5\u6CD5\u5F8B\u89C4\u5B9A\u4E3A\u51C6\uFF09\u7F51\u7AD9\u516C\u544A\u901A\u77E5\u7684\u65B9\u5F0F\u4E2D\u65AD\u6216\u7EC8\u6B62\u90E8\u5206\u6216\u5168\u90E8\u672C\u670D\u52A1\u7684\u6743\u5229\uFF0C\u7528\u6237\u5DF2\u660E\u786E\u77E5\u6653\u4E0A\u8FF0\u6743\u5229\u7684\u6388\u4E88\u4E14\u77E5\u6653\u56E0\u4E0A\u8FF0\u6743\u5229\u7684\u884C\u4F7F\u53EF\u80FD\u7ED9\u81EA\u8EAB\u53CA\u5176\u4ED6\u7B2C\u4E09\u65B9\u9020\u6210\u7684\u76F4\u63A5\u6216\u95F4\u63A5\u5229\u76CA\u51CF\u635F\uFF0C\u7528\u6237\u5728\u6B64\u660E\u786E\u8868\u793A\u4E0D\u8FFD\u7A76\u672C\u5DE5\u4F5C\u5BA4\u56E0\u884C\u4F7F\u4E0A\u8FF0\u5355\u65B9\u4E2D\u65AD\u6216\u7EC8\u6B62\u670D\u52A1\u6743\u5229\u800C\u53EF\u80FD\u5BFC\u81F4\u7684\u4E00\u5207\u8D23\u4EFB\u3002\n\t\t\t\t\t\n\t\t\t\t\t9. \u8FDD\u7EA6\u8D23\u4EFB\n\t\t\t\t\t9.1 \u5982\u679C\u672C\u5DE5\u4F5C\u5BA4\u53D1\u73B0\u7528\u6237\u6709\u4E0B\u5217\u4EFB\u4E00\u884C\u4E3A\u7684\uFF0C\u6709\u6743\u6839\u636E\u76F8\u5E94\u672C\u670D\u52A1\u7684\u516C\u7EA6\u6216\u5B88\u5219\u7684\u89C4\u5B9A\uFF0C\u91C7\u53D6\u76F8\u5E94\u63AA\u65BD\uFF1A\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u5BF9\u8BE5\u7528\u6237\u8D26\u53F7\u7684\u51BB\u7ED3\u3001\u7EC8\u6B62\u3001\u5220\u9664\uFF1B\u7528\u6237\u5728\u6B64\u627F\u8BFA\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u4F5C\u51FA\u4E0A\u8FF0\u884C\u4E3A\uFF0C\u5E76\u627F\u8BFA\u4E0D\u5C31\u4E0A\u8FF0\u884C\u4E3A\u8981\u6C42\u672C\u5DE5\u4F5C\u5BA4\u505A\u4EFB\u4F55\u8865\u507F\u6216\u9000\u8D39\uFF1A\n\t\t\t\t\t\n\t\t\t\t\t1) \u7528\u6237\u63D0\u4F9B\u865A\u5047\u6CE8\u518C\u4FE1\u606F\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t2) \u7528\u6237\u8FDD\u53CD\u672C\u534F\u8BAE\u4E2D\u89C4\u5B9A\u7684\u4F7F\u7528\u89C4\u5219\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t3) \u901A\u8FC7\u975E\u6CD5\u624B\u6BB5\u3001\u4E0D\u6B63\u5F53\u624B\u6BB5\u6216\u5176\u4ED6\u4E0D\u516C\u5E73\u7684\u624B\u6BB5\u4F7F\u7528\u672C\u8F6F\u4EF6\u7684\u4EA7\u54C1\u548C\u670D\u52A1\u6216\u53C2\u4E0E\u672C\u8F6F\u4EF6\u6D3B\u52A8\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t4) \u6709\u635F\u5BB3\u672C\u8F6F\u4EF6\u6B63\u5F53\u5229\u76CA\u7684\u884C\u4E3A\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t5) \u6709\u4E25\u91CD\u635F\u5BB3\u5176\u4ED6\u7528\u6237\u7684\u884C\u4E3A\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t6) \u6709\u8FDD\u53CD\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u7684\u6CD5\u5F8B\u3001\u6CD5\u89C4\u7684\u884C\u4E3A\u6216\u8A00\u8BBA\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t7) \u6709\u8FDD\u80CC\u793E\u4F1A\u98CE\u4FD7\u3001\u793E\u4F1A\u9053\u5FB7\u548C\u4E92\u8054\u7F51\u4E00\u822C\u9053\u5FB7\u548C\u793C\u4EEA\u7684\u884C\u4E3A\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t8) \u5176\u4ED6\u59A8\u788D\u672C\u8F6F\u4EF6\u63D0\u4F9B\u4EA7\u54C1\u548C\u670D\u52A1\u6216\u672C\u5DE5\u4F5C\u5BA4\u8BA4\u4E3A\u7684\u4E25\u91CD\u4E0D\u5F53\u884C\u4E3A\uFF1B \u540C\u4E00\u7528\u6237\u82E5\u6709\u4EFB\u4E00\u8D26\u53F7\u5B58\u5728\u4E0A\u8FF0\u4EFB\u4E00\u884C\u4E3A\u7684\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u5BF9\u8BE5\u7528\u6237\u4E0B\u7684\u6240\u6709\u8D26\u53F7\u4E88\u4EE5\u5236\u88C1\uFF0C\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u51BB\u7ED3\u8D26\u53F7\u3001\u5220\u9664\u8D26\u53F7\u3001\u7EC8\u6B62\u670D\u52A1\u7B49\u3002\u672C\u5DE5\u4F5C\u5BA4\u56E0\u4E0A\u8FF0\u539F\u56E0\u5220\u9664\u7528\u6237\u6CE8\u518C\u7684\u8D26\u53F7\u540E\u5373\u4E0D\u518D\u5BF9\u7528\u6237\u627F\u62C5\u4EFB\u4F55\u4E49\u52A1\u548C\u8D23\u4EFB\u3002\n\t\t\t\t\t\n\t\t\t\t\t9.2 \u7528\u6237\u540C\u610F\u4FDD\u969C\u548C\u7EF4\u62A4\u672C\u8F6F\u4EF6\u53CA\u5176\u4ED6\u7528\u6237\u7684\u5229\u76CA\uFF0C\u5982\u56E0\u7528\u6237\u8FDD\u53CD\u6709\u5173\u6CD5\u5F8B\u3001\u6CD5\u89C4\u6216\u672C\u534F\u8BAE\u9879\u4E0B\u7684\u4EFB\u4F55\u6761\u6B3E\u800C\u7ED9\u672C\u8F6F\u4EF6\u6216\u4EFB\u4F55\u5176\u4ED6\u7B2C\u4E09\u4EBA\u9020\u6210\u635F\u5931\uFF0C\u7528\u6237\u540C\u610F\u627F\u62C5\u7531\u6B64\u9020\u6210\u7684\u635F\u5BB3\u8D54\u507F\u8D23\u4EFB\u3002\n\t\t\t\t\t\n\t\t\t\t\t10. \u4FEE\u6539\u534F\u8BAE\n\t\t\t\t\t10.1\u672C\u5DE5\u4F5C\u5BA4\u5C06\u53EF\u80FD\u4E0D\u65F6\u7684\u4FEE\u6539\u672C\u534F\u8BAE\u7684\u6709\u5173\u6761\u6B3E\uFF0C\u4E00\u65E6\u6761\u6B3E\u5185\u5BB9\u53D1\u751F\u53D8\u52A8\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u5C06\u4F1A\u5728\u76F8\u5173\u7684\u9875\u9762\u63D0\u793A\u4FEE\u6539\u5185\u5BB9\u3002\n\t\t\t\t\t\n\t\t\t\t\t110.2 \u5982\u679C\u7528\u6237\u4E0D\u540C\u610F\u672C\u5DE5\u4F5C\u5BA4\u4FEE\u6539\u7684\u5185\u5BB9\uFF0C\u7528\u6237\u53EF\u4EE5\u4E3B\u52A8\u53D6\u6D88\u83B7\u5F97\u7684\u672C\u670D\u52A1\u3002\u5982\u679C\u7528\u6237\u5728\u4FEE\u6539\u5185\u5BB9\u516C\u544A\u540E15\u5929\u5185\u672A\u4E3B\u52A8\u53D6\u6D88\u670D\u52A1\uFF0C\u5219\u89C6\u4E3A\u63A5\u53D7\u6761\u6B3E\u7684\u53D8\u66F4\uFF1B\u4FEE\u6539\u5185\u5BB9\u516C\u544A\u540E\u7528\u6237\u5982\u679C\u4ECD\u7EE7\u7EED\u4F7F\u7528\u672C\u8F6F\u4EF6\u63D0\u4F9B\u7684\u4EA7\u54C1\u548C\u670D\u52A1\u4EA6\u6784\u6210\u5BF9\u6761\u6B3E\u53D8\u66F4\u7684\u63A5\u53D7\u3002\n\t\t\t\t\t\n\t\t\t\t\t11. \u6CD5\u5F8B\u7BA1\u8F96\n\t\t\t\t\t11.1 \u672C\u534F\u8BAE\u7684\u8BA2\u7ACB\u3001\u6267\u884C\u548C\u89E3\u91CA\u53CA\u4E89\u8BAE\u7684\u89E3\u51B3\u5747\u5E94\u9002\u7528\u4E2D\u56FD\u6CD5\u5F8B\u3002\n\t\t\t\t\t\n\t\t\t\t\t11.2 \u5982\u53CC\u65B9\u5C31\u672C\u534F\u8BAE\u5185\u5BB9\u6216\u5176\u6267\u884C\u53D1\u751F\u4EFB\u4F55\u4E89\u8BAE\uFF0C\u53CC\u65B9\u5E94\u5C3D\u91CF\u53CB\u597D\u534F\u5546\u89E3\u51B3\uFF1B\u534F\u5546\u4E0D\u6210\u65F6\uFF0C\u7528\u6237\u548C\u672C\u5DE5\u4F5C\u5BA4\u4E00\u81F4\u540C\u610F\u4EA4\u7531\u8F6F\u4EF6\u8FD0\u8425\u5546\u6240\u5728\u5730\u6709\u7BA1\u8F96\u6743\u7684\u6CD5\u9662\u7BA1\u8F96\u3002\n\t\t\t\t\t\n\t\t\t\t\t12. \u901A\u77E5\u548C\u9001\u8FBE\n\t\t\t\t\t12.1 \u672C\u534F\u8BAE\u9879\u4E0B\u6240\u6709\u7684\u901A\u77E5\u5747\u53EF\u901A\u8FC7\u91CD\u8981\u9875\u9762\u516C\u544A\u3001\u7535\u5B50\u90AE\u4EF6\u6216\u5E38\u89C4\u7684\u4FE1\u4EF6\u4F20\u9001\u7B49\u65B9\u5F0F\u8FDB\u884C\uFF1B\u8BE5\u901A\u77E5\u4E8E\u53D1\u9001\u4E4B\u65E5\u89C6\u4E3A\u5DF2\u9001\u8FBE\u6536\u4EF6\u4EBA\u3002\n\t\t\t\t\t\n\t\t\t\t\t13. \u5176\u4ED6\u89C4\u5B9A\n\t\t\t\t\t13.1\u7528\u6237\u63A5\u53D7\u672C\u670D\u52A1\u6761\u6B3E\u89C6\u4E3A\u7528\u6237\u5DF2\u5145\u5206\u7406\u89E3\u5E76\u540C\u610F\uFF1A\n\t\t\t\t\t\n\t\t\t\t\t1\uFF09\u63A5\u6536\u672C\u5DE5\u4F5C\u5BA4\u901A\u8FC7\u90AE\u4EF6\u3001\u7535\u8BDD\u3001\u77ED\u4FE1\u3001\u79FB\u52A8\u7AEF\u3001\u7F51\u9875\u6216\u5176\u4ED6\u5408\u6CD5\u65B9\u5F0F\uFF0C\u4E0D\u5B9A\u671F\u53D1\u9001\u4E0E\u5B66\u4E60\u3001\u8003\u8BD5\u8D44\u8BAF\u7684\u76F8\u5173\u4FE1\u606F\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t2\uFF09\u63A5\u6536\u672C\u5DE5\u4F5C\u5BA4\u901A\u8FC7\u90AE\u4EF6\u3001\u7535\u8BDD\u3001\u77ED\u4FE1\u3001\u79FB\u52A8\u7AEF\u3001\u7F51\u9875\u6216\u5176\u4ED6\u5408\u6CD5\u65B9\u5F0F\uFF0C\u5411\u7528\u6237\u53D1\u9001\u7684\u8BA2\u5355\u4FE1\u606F\u3001\u4EA7\u54C1\u6216\u670D\u52A1\u4FE1\u606F\u3001\u4FC3\u9500\u6D3B\u52A8\u7B49\u5185\u5BB9\uFF1B\n\t\t\t\t\t\n\t\t\t\t\t3\uFF09\u672C\u5DE5\u4F5C\u5BA4\u4F9D\u6CD5\u4FDD\u969C\u7528\u6237\u5728\u5B89\u88C5\u6216\u4F7F\u7528\u8FC7\u7A0B\u4E2D\u7684\u77E5\u60C5\u6743\u548C\u9009\u62E9\u6743\uFF0C\u5728\u7528\u6237\u4F7F\u7528\u672C\u5DE5\u4F5C\u5BA4\u670D\u52A1\u8FC7\u7A0B\u4E2D\uFF0C\u6D89\u53CA\u7528\u6237\u8BBE\u5907\u81EA\u5E26\u529F\u80FD\u7684\u670D\u52A1\u4F1A\u63D0\u524D\u5F81\u5F97\u7528\u6237\u540C\u610F\u3002\u7528\u6237\u4E00\u7ECF\u786E\u8BA4\uFF0C\u672C\u5DE5\u4F5C\u5BA4\u6709\u6743\u5F00\u542F\u5305\u62EC\u4F46\u4E0D\u9650\u4E8E\u6536\u96C6\u5730\u7406\u4F4D\u7F6E\u3001\u8BFB\u53D6\u901A\u8BAF\u5F55\u3001\u4F7F\u7528\u6444\u50CF\u5934\u3001\u542F\u7528\u5F55\u97F3\u7B49\u63D0\u4F9B\u670D\u52A1\u5FC5\u8981\u7684\u8F85\u52A9\u529F\u80FD\u3002\n\t\t\t\t\t\n\t\t\t\t\t13.2 \u672C\u534F\u8BAE\u6784\u6210\u53CC\u65B9\u5BF9\u672C\u534F\u8BAE\u4E4B\u7EA6\u5B9A\u4E8B\u9879\u53CA\u5176\u4ED6\u6709\u5173\u4E8B\u5B9C\u7684\u5B8C\u6574\u534F\u8BAE\uFF0C\u9664\u672C\u534F\u8BAE\u89C4\u5B9A\u7684\u4E4B\u5916\uFF0C\u672A\u8D4B\u4E88\u672C\u534F\u8BAE\u5404\u65B9\u5176\u4ED6\u6743\u5229\u3002\n\t\t\t\t\t\n\t\t\t\t\t13.3 \u5982\u672C\u534F\u8BAE\u4E2D\u7684\u4EFB\u4F55\u6761\u6B3E\u65E0\u8BBA\u56E0\u4F55\u79CD\u539F\u56E0\u5B8C\u5168\u6216\u90E8\u5206\u65E0\u6548\u6216\u4E0D\u5177\u6709\u6267\u884C\u529B\uFF0C\u672C\u534F\u8BAE\u7684\u5176\u4F59\u6761\u6B3E\u4ECD\u5E94\u6709\u6548\u5E76\u4E14\u6709\u7EA6\u675F\u529B\u3002\n\t\t\t\t\t\n\t\t\t\t\t13.4 \u672C\u534F\u8BAE\u4E2D\u7684\u6807\u9898\u4EC5\u4E3A\u65B9\u4FBF\u800C\u8BBE\uFF0C\u5728\u89E3\u91CA\u672C\u534F\u8BAE\u65F6\u5E94\u88AB\u5FFD\u7565\u3002\n\t\t\t" };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  },
+  methods: {} };exports.default = _default;
+
+/***/ })
+
+},[[257,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/agreement/agreement.js.map

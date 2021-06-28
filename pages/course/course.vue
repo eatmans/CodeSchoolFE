@@ -2,7 +2,6 @@
 	<view class="u-flex u-flex-col">
 		<view class="c-course-controller">
 			<view class="">
-
 			</view>
 		</view>
 		<view class="c-top">
@@ -15,7 +14,7 @@
 						周{{item}}
 					</view>
 					<view class="">
-						4/{{index+26}}
+						6/{{index+21}}
 					</view>
 				</view>
 				<view v-else class="">
@@ -23,7 +22,7 @@
 						周{{item}}
 					</view>
 					<view class="">
-						4/{{index+26}}
+						6/{{index+21}}
 					</view>
 				</view>
 
@@ -84,16 +83,16 @@
 				title: ['一', '二', '三', '四', '五', '六', '日'],
 				sksj: [{
 					's': '08:00',
-					'e': '08:50'
+					'e': '08:45'
 				}, {
 					's': '08:55',
-					'e': '09:45'
+					'e': '09:50'
 				}, {
-					's': '10:15',
-					'e': '11:05'
+					's': '10:00',
+					'e': '10:45'
 				}, {
-					's': '11:10',
-					'e': '12:00'
+					's': '10:55',
+					'e': '11:40'
 				}, {
 					's': '14:00',
 					'e': '14:50'
@@ -290,8 +289,6 @@
 			// 用于判断是展示空白课程，还是已经实时课程,生成展示列表
 			showCourse() {
 				let kclength = this.courseList.length; // 当前周的总课程数
-				// this.testArray;
-				// console.log(this.testArray);
 				// 把需要显示的位置设置为0
 				for (let i = 0; i < kclength; i++) {
 					// console.log(parseInt(this.courseList[i].section.split("-")[1]) / 2 ); // 获取准确的节数
@@ -308,14 +305,26 @@
 			// 获取课程信息
 			getCourseData() {
 				// that = this;
-				axios
-					.get('http://127.0.0.1:9999/api/v1/course/6-6/%E8%BD%AF%E4%BB%B61935')
-					.then(function(response) {
-						console.log(response);
-					})
-					.catch(function(error) {
-						console.log(error);
-					});
+				var clazzName = "软件1935"
+				uni.request({
+					url: 'http://127.0.0.1:8879/api/v1/course/6-6/' + clazzName,
+					method: 'GET',
+					data: {},
+					success: res => {
+						console.log(res.data);
+						this.courseList = res.data.data;
+					},
+					fail: () => {},
+					complete: () => {}
+				});
+				// axios
+				// 	.get('http://127.0.0.1:8879/api/v1/course/6-6/%E8%BD%AF%E4%BB%B61935')
+				// 	.then(function(res) {
+				// 		console.log(res);
+				// 	})
+				// 	.catch(function(error) {
+				// 		console.log(error);
+				// 	});
 
 			},
 			gotoViewCourse() {
@@ -334,7 +343,7 @@
 				if (day) {
 					this.thisDay = day - 1;
 				} else {
-					this.thisDay = 7
+					this.thisDay = 6
 				};
 			},
 			// 获取今天距离某天相差天数

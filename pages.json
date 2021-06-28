@@ -71,7 +71,7 @@
 		}, {
 			"path": "pages/test/test",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "测试中心",
 				"enablePullDownRefresh": false
 			}
 
@@ -80,7 +80,7 @@
 		, {
 			"path": "pages/attendance/attendance",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "关注",
 				"enablePullDownRefresh": false
 			}
 
@@ -91,99 +91,64 @@
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/todo/addTodo/addTodo",
+			"style": {
+				"navigationBarTitleText": "添加TODO",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myFile/myFile",
+			"style": {
+				"navigationBarTitleText": "我的文件",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/findPassword/findPassword",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/course/viewCourse/viewCourse",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myFollow/myFollow",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myFans/myFans",
+			"style": {
+				"navigationBarTitleText": "我的粉丝",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myLikes/myLikes",
+			"style": {
+				"navigationBarTitleText": "我的赞",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myNews/myNews",
+			"style": {
+				"navigationBarTitleText": "我的动态",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	    ,{
-            "path" : "pages/todo/addTodo/addTodo",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-       
-        ,{
-            "path" : "pages/makeFriend/makeFriend",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "交友",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/myFile/myFile",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/findPassword/findPassword",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/makeFriend/lookFirend/lookFirend",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/course/viewCourse/viewCourse",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/myFollow/myFollow",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/myFans/myFans",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/myLikes/myLikes",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/myNews/myNews",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "可得校园",
@@ -210,11 +175,6 @@
 			"iconPath": "static/calendar.png",
 			"selectedIconPath": "static/calendar-selected.png",
 			"text": "课程表"
-		}, {
-			"pagePath": "pages/makeFriend/makeFriend",
-			"iconPath": "static/emoji-fill.png",
-			"selectedIconPath": "static/emoji-fill-selected.png",
-			"text": "交友"
 		}, {
 			"pagePath": "pages/my/my",
 			"iconPath": "static/user-fill.png",

@@ -2,16 +2,17 @@
 	<view class="u-flex u-flex-col c-container">
 		<!-- <image class="c-bg" src="../../static/mybg.png" mode=""></image> -->
 		<view class="c-user u-col-center">
-			<view class="c-user-av">
+			<view class="c-user-av" @click="">
 				<image class="c-user-av-image" src="../../static/codelogo.png" mode=""></image>
-				<button class="c-user-edit" type="default">编辑</button>
-			</view>
-			<view class="c-user-name">
-				<text class="c-user-name-text">BLACK WATER</text>
-				<view class="c-user-desc">
-					广东邮电职业技术学院19级软件技术专业
+				<view class="c-user-name">
+					<text class="c-user-name-text">BLACK WATER</text>
+					<view class="c-user-desc">
+						广东邮电职业技术学院19级软件技术专业
+					</view>
 				</view>
+				<!-- <button class="c-user-edit" type="default">编辑</button> -->
 			</view>
+
 			<view class="c-user-info">
 				<view class="c-info-item" @click="gotoMyFollow()">
 					<view class="c-info-data">
@@ -134,7 +135,7 @@
 			gotoMyLikes() {
 				uni.navigateTo({
 					url: '../myLikes/myLikes',
-	
+
 				});
 			},
 			gotoMyNews() {
@@ -173,7 +174,6 @@
 </script>
 
 <style>
-
 	.c-container {}
 
 	.c-bg {
@@ -197,7 +197,7 @@
 		border-radius: 45rpx;
 		height: 60rpx;
 		font-size: 25rpx;
-		position: fixed; 
+		position: fixed;
 		top: 80px;
 		right: 30px;
 	}
@@ -234,22 +234,27 @@
 
 	.c-user-av {
 		/* background-color: #18B566; */
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 
 	}
 
 	.c-user-av-image {
 		/* margin-top: -100rpx; */
 		margin-top: 50rpx;
-		margin-left: -250rpx;
-		width: 200rpx;
-		height: 200rpx;
+		/* margin-left: -250rpx; */
+		width: 150rpx;
+		height: 150rpx;
 		border: 5rpx double #FFFFFF;
 		border-radius: 100rpx;
 	}
 
 	.c-user-name {
 		margin: 10rpx;
-		margin-left: -100rpx;
+		margin-top: 50rpx;
+		/* margin-left: -100rpx; */
 	}
 
 	.c-tools {

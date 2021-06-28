@@ -5,7 +5,7 @@ const install = (Vue, vm) => {
 	// 此为自定义配置参数，具体参数见上方说明
 	Vue.prototype.$u.http.setConfig({
 		// baseUrl: 'http://localhost:9999/api/v1', // 请求的本域名
-		baseUrl: 'http://127.0.0.1:9999/api/v1', 
+		baseUrl: 'http://127.0.0.1:8879/api/v1', 
 		loadingText: '努力加载中~',
 		loadingTime: 800,
 		dataType: 'json',

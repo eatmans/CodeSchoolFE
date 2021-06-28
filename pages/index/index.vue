@@ -148,7 +148,7 @@
 		data() {
 			return {
 				title: 'Hello',
-				helloDay:'',
+				helloDay: '',
 				courseList: 3,
 				todoList: [1, 2, 3, 4, 5],
 				scrollTop: 0,
@@ -171,7 +171,7 @@
 			// this.judgmentLogin();
 		},
 		methods: {
-			init(){
+			init() {
 				moment.locale('zh-cn');
 				this.helloDay = moment().format("MMMDo, YYYY");
 			},
@@ -185,10 +185,10 @@
 					const value = uni.getStorageSync('isLogined');
 					if (value) {
 						console.log("登录状态" + value);
-						if(value == "unlogined"){
+						if (value == "unlogined") {
 							this.isLogined = false;
 							console.log("还没有登录");
-						}else{
+						} else {
 							this.isLogined = true;
 						}
 					}
@@ -205,13 +205,13 @@
 				uni.switchTab({
 					url: '../todo/todo'
 				});
-				// console.log(e)
+
 			},
 			gotoSchedule() {
 				uni.switchTab({
 					url: '../course/course'
 				});
-				// console.log(e)
+
 			},
 			gotoLogin() {
 				uni.navigateTo({
@@ -341,7 +341,7 @@
 	.c-loss {
 		font-size: 25rpx;
 		margin: 5rpx;
-		color:  #d0cbcd;
+		color: #d0cbcd;
 	}
 
 	.c-more {
@@ -412,7 +412,7 @@
 		color: #808080;
 		font-size: 25rpx;
 		display: inline-block;
-		font-weight:10px
+		font-weight: 10px
 	}
 
 	.c-blue {
@@ -470,7 +470,6 @@
 		color: #FFFFFF;
 		border-radius: 45rpx;
 	}
-	.c-more{
-		
-	}
+
+	.c-more {}
 </style>

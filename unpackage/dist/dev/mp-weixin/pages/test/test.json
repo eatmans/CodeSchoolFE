@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "测试中心",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "u-form": "/node-modules/uview-ui/components/u-form/u-form",

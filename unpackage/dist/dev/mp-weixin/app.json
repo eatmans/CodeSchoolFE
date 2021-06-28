@@ -14,9 +14,13 @@
     "pages/attendance/attendance",
     "pages/course/course",
     "pages/todo/addTodo/addTodo",
-    "pages/makeFriend/makeFriend",
     "pages/myFile/myFile",
-    "pages/findPassword/findPassword"
+    "pages/findPassword/findPassword",
+    "pages/course/viewCourse/viewCourse",
+    "pages/myFollow/myFollow",
+    "pages/myFans/myFans",
+    "pages/myLikes/myLikes",
+    "pages/myNews/myNews"
   ],
   "subPackages": [],
   "window": {
@@ -48,12 +52,6 @@
         "iconPath": "static/calendar.png",
         "selectedIconPath": "static/calendar-selected.png",
         "text": "课程表"
-      },
-      {
-        "pagePath": "pages/makeFriend/makeFriend",
-        "iconPath": "static/emoji-fill.png",
-        "selectedIconPath": "static/emoji-fill-selected.png",
-        "text": "交友"
       },
       {
         "pagePath": "pages/my/my",

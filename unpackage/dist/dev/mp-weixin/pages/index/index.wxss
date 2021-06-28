@@ -108,7 +108,7 @@ page {
 .c-loss {
 	font-size: 25rpx;
 	margin: 5rpx;
-	color:  #d0cbcd;
+	color: #d0cbcd;
 }
 .c-more {
 	margin-left: 400rpx;
@@ -203,7 +203,7 @@ page {
 	color: #808080;
 	font-size: 25rpx;
 	display: inline-block;
-	font-weight:10px
+	font-weight: 10px
 }
 .c-blue {
 	color: #68627a;
@@ -259,6 +259,5 @@ page {
 	color: #FFFFFF;
 	border-radius: 45rpx;
 }
-.c-more{
-}
+.c-more {}
 
